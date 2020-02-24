@@ -1,7 +1,7 @@
 import React from "react";
 import ReactPlayer from "react-player";
-import Claims from "components/Accordion";
-import Layout from "components/Layout";
+import Claims from "components/accordion";
+import Layout from "components/layout";
 
 const IndexPage = () => {
   return (
