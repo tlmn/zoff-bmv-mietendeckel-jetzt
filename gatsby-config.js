@@ -1,17 +1,17 @@
 module.exports = {
   plugins: [
-    'gatsby-plugin-resolve-src',
-    'gatsby-plugin-sass',
-    'gatsby-transformer-sharp',
+    "gatsby-plugin-resolve-src",
+    "gatsby-plugin-sass",
+    "gatsby-transformer-sharp",
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
-        path: `/src/images`,
-        name: 'images'
+        path: `${__dirname}/src/images`,
+        name: "images"
       }
     },
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sharp',
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sharp",
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
@@ -19,9 +19,9 @@ module.exports = {
           {
             family: `IBM Plex Sans`,
             variants: [`400`, `600`]
-          },
-        ],
-      },
+          }
+        ]
+      }
     }
-  ],
-}
+  ]
+};
