@@ -11,17 +11,6 @@ module.exports = {
       }
     },
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sharp",
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `IBM Plex Sans`,
-            variants: [`400`, `600`]
-          }
-        ]
-      }
-    }
+    "gatsby-plugin-sharp"
   ]
 };
