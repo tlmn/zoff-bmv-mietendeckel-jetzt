@@ -5,11 +5,6 @@ import Helmet from "react-helmet";
 import "assets/stylesheets/application.scss";
 
 const Layout = ({ children, pageName }) => {
-  let className = "";
-
-  if (pageName) {
-    className = `${className} page-${pageName}`;
-  }
 
   return (
     <>
