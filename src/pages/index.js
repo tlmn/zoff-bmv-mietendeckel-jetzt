@@ -2,6 +2,7 @@ import React from "react";
 import ReactPlayer from "react-player";
 import Claims from "components/accordion";
 import Helmet from "components/helmet";
+import Footer from "components/footer";
 
 const IndexPage = () => {
   return (
@@ -245,18 +246,7 @@ const IndexPage = () => {
         </div>
       
       </div>
-      <div className="bg--yellow pt-5 pb-5">
-        <div className="container mx-auto d-block">
-          <div className="row">
-            <div className="col-12 text-center">
-              <h2>Footer</h2>
-            </div>
-            <div className="col-12">
-      
-            </div>
-          </div>
-        </div>
-      </div>
+      <Footer />
     </>
   );
 };
