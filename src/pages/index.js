@@ -11,12 +11,12 @@ const IndexPage = () => {
       <div className="container mx-auto d-block pt-5 pb-5">
         <div className="row">
           <div className="col">
-            <h1 className=" text-center">Mietendeckel jetzt!</h1>
+            <h2 className="text-center">Mietendeckel wirkt!</h2>
           </div>
         </div>
         <div className="row">
-          <div className="col-sm-10 offset-sm-1">
-            <p className="font-weight-bold">
+          <div className="col-sm-8 offset-sm-2">
+            <p className="teaser">
               Seit Jahren ächzt Berlin unter steigenden Mieten, Spekulation und
               Verdrängung. Ob im eigenen Haus, im Block oder im Kiez: gegen
               diese Entwicklungen hat sich breiter Protest gebildet und die
@@ -50,8 +50,8 @@ const IndexPage = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-sm-10 offset-sm-1">
-              <p className="font-weight-bold">
+            <div className="col-sm-8 offset-sm-2">
+              <p className="teaser">
                 Der Mietendeckel soll die Entwicklungen auf dem Berliner
                 Mietmarkt stoppen. Mit drei Maßnahmen soll das gelingen:
                 Mietenstopp, Obergrenzen bei Wiedervermietung und Mietabsenkung.
@@ -95,7 +95,7 @@ const IndexPage = () => {
                 finden, muss das häufig teuer bezahlen. Die gute Nachricht dank
                 Mietendeckel: Mieten, die mehr als 20 % über den Obergrenzen für
                 Wiedervermietung liegen, werden nicht nur eingefroren. Ab
-                1.1.2021 können sie abgesenkt werden! Wann genau eine überhöhte
+                23.11.2020 können sie abgesenkt werden! Wann genau eine überhöhte
                 Miete vorliegt, richtet sich nach Baujahr, Austattung und
                 Wohnlage des Hauses. Vermieter sind verpflichtet, ihre
                 Mieter*innen zu informieren. Ob Sie Ihre Miete absenken können
@@ -195,7 +195,7 @@ const IndexPage = () => {
       </div>
       <div className="container mx-auto d-block pt-5 pb-5">
         <div className="row">
-          <div className="col-sm-10 offset-sm-1">
+          <div className="col-sm-8 offset-sm-2">
             <h2 className="text-center">Was kommt nach dem Mietendeckel?</h2>
             <p className="teaser">
               Der Berliner Mietendeckel ist zunächst bis 2025 begrenzt. In
