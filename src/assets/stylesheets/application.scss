@@ -1,4 +1,5 @@
 @import "vars";
+@import "fonts";
 @import "~sass-mq";
 @import "components/__components";
 @import "pages/__pages";
@@ -13,7 +14,7 @@
 @import "bootstrap/scss/utilities/_text";
 
 body {
-  font-family: "IBM Plex Sans", Helvetica, Arial, sans-serif;
+  font-family: "GT Walsheim", Helvetica, Arial, sans-serif;
   padding: 0;
   margin: 0;
 }
