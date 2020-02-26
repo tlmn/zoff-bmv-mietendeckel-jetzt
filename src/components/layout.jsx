@@ -5,14 +5,11 @@ import Helmet from "react-helmet";
 import "assets/stylesheets/application.scss";
 
 const Layout = ({ children, pageName }) => {
-
   return (
     <>
-      <Helmet>
-        
-      </Helmet>
+      <Helmet></Helmet>
 
-      <div className="wrapper">{children}</div>
+      <div className="container">{children}</div>
     </>
   );
 };
