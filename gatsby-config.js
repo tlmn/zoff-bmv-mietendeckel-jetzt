@@ -11,6 +11,18 @@ module.exports = {
       }
     },
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sharp"
+    "gatsby-plugin-sharp",
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Mietendeckel jetzt`,
+        short_name: `Mietendeckel jetzt`,
+        start_url: `/`,
+        background_color: `#FFE200`,
+        theme_color: `#FFE200`,
+        display: `minimal-ui`,
+        icon: `src/images/web-icon.png`
+      }
+    }
   ]
 };
