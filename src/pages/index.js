@@ -7,14 +7,14 @@ const IndexPage = () => {
   return (
     <>
       <Helmet />
-      <div className="container mx-auto d-block">
-        <div className="row text-center">
-          <div class="col">
-            <h1>Mietendeckel jetzt!</h1>
+      <div className="container mx-auto d-block pt-5 pb-5">
+        <div className="row">
+          <div className="col">
+            <h1 className=" text-center">Mietendeckel jetzt!</h1>
           </div>
         </div>
-        <div className="row text-center">
-          <div class="col-sm-8 offset-sm-2">
+        <div className="row">
+          <div className="col-sm-10 offset-sm-1">
             <p className="font-weight-bold">
               Seit Jahren ächzt Berlin unter steigenden Mieten, Spekulation und
               Verdrängung. Ob im eigenen Haus, im Block oder im Kiez: gegen
@@ -34,22 +34,22 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto d-block">
+      <div className="container mx-auto d-block pt-5 pb-5">
       <div className="row">
         <div className="col-12 text-center">
-          <ReactPlayer url="https://www.youtube.com/watch?v=FScfGU7rQaM" />
+          <ReactPlayer className="mx-auto d-block" url="https://www.youtube.com/watch?v=FScfGU7rQaM" />
         </div>
       </div>
       </div>
-      <div className="bg--yellow p-t-3">
+      <div className="bg--yellow pt-5 pb-5">
         <div className="container mx-auto d-block">
           <div className="row text-center">
-            <div class="col-12">
-              <h2>Was ist der Mietendeckel?</h2>
+            <div className="col-12">
+              <h2>Was kann der Mietendeckel?</h2>
             </div>
           </div>
-          <div className="row text-center">
-            <div className="col-sm-8 offset-sm-2">
+          <div className="row">
+            <div className="col-sm-10 offset-sm-1">
               <p className="font-weight-bold">
                 Der Mietendeckel soll die Entwicklungen auf dem Berliner
                 Mietmarkt stoppen. Mit drei Maßnahmen soll das gelingen:
@@ -105,7 +105,7 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto d-block">
+      <div className="container mx-auto d-block pt-5 pb-5">
         <div className="row text-center">
           <div className="col-12">
             <h2>Wie wirkt der Mietendeckel für mich?</h2>
@@ -123,7 +123,7 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
-      <div className="bg--cornflower-blue">
+      <div className="bg--cornflower-blue pt-5 pb-5">
         <div className="container mx-auto d-block">
           <div className="row">
             <div className="col-12 text-center">
@@ -192,11 +192,11 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto d-block">
-        <div className="row text-center">
-          <div className="col-sm-8 offset-sm-2">
-            <h2>Was kommt nach dem Mietendeckel?</h2>
-            <p>
+      <div className="container mx-auto d-block pt-5 pb-5">
+        <div className="row">
+          <div className="col-sm-10 offset-sm-1">
+            <h2 className="text-center">Was kommt nach dem Mietendeckel?</h2>
+            <p className="teaser">
               Der Berliner Mietendeckel ist zunächst bis 2025 begrenzt. In
               dieser Verschaufpause für die Mieter*innen ist es an der Berliner
               Politik, nachhaltige Antworten auf die Wohnungsfrage zu finden.
@@ -241,6 +241,19 @@ const IndexPage = () => {
               consequat ullamco sit. Sunt qui consequat nisi ad adipisicing. Sit
               et ex Lorem elit eiusmod qui.
             </p>
+          </div>
+        </div>
+      
+      </div>
+      <div className="bg--yellow pt-5 pb-5">
+        <div className="container mx-auto d-block">
+          <div className="row">
+            <div className="col-12 text-center">
+              <h2>Footer</h2>
+            </div>
+            <div className="col-12">
+      
+            </div>
           </div>
         </div>
       </div>

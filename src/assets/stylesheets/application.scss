@@ -1,20 +1,23 @@
 @import "vars";
 @import "fonts";
 @import "backgrounds";
+@import "typography";
 @import "~sass-mq";
 @import "components/__components";
-@import "pages/__pages";
 @import "normalize.css/normalize";
+
+// BOOTSTRAP
 @import "bootstrap/scss/_functions";
 @import "bootstrap/scss/_variables";
 @import "bootstrap/scss/bootstrap-grid";
+@import "bootstrap/scss/utilities/_spacing";
 @import "bootstrap/scss/mixins/_text-truncate";
 @import "bootstrap/scss/mixins/_text-emphasis";
 @import "bootstrap/scss/mixins/_text-hide";
 @import "bootstrap/scss/mixins/_hover";
 @import "bootstrap/scss/mixins/_deprecate";
-@import "bootstrap/scss/utilities/_spacing";
 @import "bootstrap/scss/utilities/_text";
+
 
 body {
   font-family: "GT Walsheim", Helvetica, Arial, sans-serif;
