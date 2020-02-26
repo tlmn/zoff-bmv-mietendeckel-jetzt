@@ -3,12 +3,16 @@ import ReactPlayer from "react-player";
 import Claims from "components/accordion";
 import Helmet from "components/helmet";
 import Footer from "components/footer";
+import Image from "components/image";
+import Navbar from "components/navbar";
 
 const IndexPage = () => {
   return (
     <>
       <Helmet />
-      <div className="container mx-auto d-block pt-5 pb-5">
+      <Navbar />
+      <Image name="header-alt-werden-im-eigenen-kiez.jpg" />
+      <div className="container mx-auto d-block pt-5 pb-5" id="mietendeckel-wirkt">
         <div className="row">
           <div className="col">
             <h2 className="text-center">Mietendeckel wirkt!</h2>
@@ -42,7 +46,7 @@ const IndexPage = () => {
         </div>
       </div>
       </div>
-      <div className="bg--yellow pt-5 pb-5">
+      <div className="bg--yellow pt-5 pb-5" id="was-kann-mietendeckel">
         <div className="container mx-auto d-block">
           <div className="row text-center">
             <div className="col-12">
@@ -106,7 +110,7 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto d-block pt-5 pb-5">
+      <div className="container mx-auto d-block pt-5 pb-5" id="wie-kann-ich-deckeln">
         <div className="row text-center">
           <div className="col-12">
             <h2>Wie wirkt der Mietendeckel für mich?</h2>
@@ -124,11 +128,11 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
-      <div className="bg--cornflower-blue pt-5 pb-5">
+      <div className="bg--cornflower-blue pt-5 pb-5" id="faq">
         <div className="container mx-auto d-block">
           <div className="row">
             <div className="col-12 text-center">
-              <h2>Häufig gestellte Fragen zum Mietendeckel</h2>
+              <h2>FAQ</h2>
             </div>
             <div className="col-12">
               <Claims
@@ -193,7 +197,7 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto d-block pt-5 pb-5">
+      <div className="container mx-auto d-block pt-5 pb-5" id="nach-dem-mietendeckel">
         <div className="row">
           <div className="col-sm-8 offset-sm-2">
             <h2 className="text-center">Was kommt nach dem Mietendeckel?</h2>
