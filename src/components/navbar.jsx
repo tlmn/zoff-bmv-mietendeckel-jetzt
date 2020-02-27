@@ -22,7 +22,7 @@ export default () => {
   return (
     <>
       <div className="navbar" ref={refMenu}>
-        <LogoBMV width="40" />
+        <AnchorLink href="#top"><LogoBMV width="40" /></AnchorLink>
         <Scrollspy
           items={[
             "was-kann-mietendeckel",
@@ -59,7 +59,7 @@ export default () => {
           </li>
         </ul>
       </div>
-      <div style={{ height: menuHeight + 10 + "px" }} />
+      <div style={{ height: menuHeight + "px" }} />
     </>
   );
 };
