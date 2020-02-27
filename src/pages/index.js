@@ -4,8 +4,8 @@ import Player from "components/player";
 import Claims from "components/accordion";
 import Helmet from "components/helmet";
 import Footer from "components/footer";
-import Image from "components/image";
 import Navbar from "components/navbar";
+import Hero from "../components/hero";
 
 const IndexPage = () => {
   const links = {
@@ -33,20 +33,22 @@ const IndexPage = () => {
           { label: "Nach dem Mietendeckel", href: "#nach-dem-mietendeckel" }
         ]}
       />
-      <div>
-        <Image name="header-alt-werden-im-eigenen-kiez.jpg" />
-        <div
-          style={{ paddingTop: "50%", marginTop: "-50%" }}
-          className="hero__overlay"
-        ></div>
-      </div>
-      <div className="text-center">
-        <h1 className="circleTop circle circle--yellow text-center">
-          <i>Endlich!</i>
-          <br />
-          Alt werden im eigenen Kiez
-        </h1>
-      </div>
+      <Hero
+        images={[
+          {
+            src: "header-keine-angst-vor-mieterhoehungen.jpg",
+            text: "Endlich! Keine Angst vor Mieterhöhungen"
+          },
+          {
+            src: "header-alt-werden-im-eigenen-kiez.jpg",
+            text: "Endlich! Alt werden im eigenen Kiez"
+          },
+          {
+            src: "header-platz-fuer-freunde.jpg",
+            text: "Endlich! Platz für Freunde"
+          }
+        ]}
+      />
       <div
         className="container mx-auto d-block pt-5 pb-5 mt-5"
         id="mietendeckel-wirkt"
