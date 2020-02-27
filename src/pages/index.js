@@ -1,5 +1,6 @@
 import React from "react";
-import ReactPlayer from "react-player";
+import Player from "components/player";
+
 import Claims from "components/accordion";
 import Helmet from "components/helmet";
 import Footer from "components/footer";
@@ -60,14 +61,12 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto d-block pt-5 pb-5">
+      <div className="container mx-auto d-block pb-5">
         <div className="row">
-          <div className="col-12 text-center">
-            <ReactPlayer
-              className="mx-auto d-block"
-              url="https://www.youtube.com/watch?v=FScfGU7rQaM"
+            <Player
+              classNames="col-12 offset-0 col-sm-10 offset-sm-1"
+              videoURL="https://www.youtube.com/watch?v=FScfGU7rQaM"
             />
-          </div>
         </div>
       </div>
       <div className="bg--yellow pt-5 pb-5" id="was-kann-mietendeckel">
