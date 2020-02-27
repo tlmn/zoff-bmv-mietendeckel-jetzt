@@ -28,6 +28,12 @@
         text-decoration: none;
         &:hover {
           text-decoration: underline;
+          & svg {
+            fill: $c-3;
+          }
+        }
+        & svg {
+          fill: #2D2D37;
         }
       }
     }
