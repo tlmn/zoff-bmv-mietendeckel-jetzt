@@ -1,7 +1,7 @@
 import React from "react";
 import Player from "components/player";
 
-import Claims from "components/accordion";
+import Accordion from "components/accordion";
 import Helmet from "components/helmet";
 import Footer from "components/footer";
 import Navbar from "components/navbar";
@@ -37,20 +37,20 @@ const IndexPage = () => {
         images={[
           {
             src: "header-keine-angst-vor-mieterhoehungen.jpg",
-            text: "Endlich! Keine Angst vor Mieterhöhungen"
+            text: "<i>Endlich!</i><br/>Keine Angst vor Mieterhöhungen"
           },
           {
             src: "header-alt-werden-im-eigenen-kiez.jpg",
-            text: "Endlich! Alt werden im eigenen Kiez"
+            text: "<i>Endlich!</i><br/>Alt werden im eigenen Kiez"
           },
           {
             src: "header-platz-fuer-freunde.jpg",
-            text: "Endlich! Platz für Freunde"
+            text: "<i>Endlich!</i><br/>Platz für Freunde"
           }
         ]}
       />
       <div
-        className="container mx-auto d-block pt-5 pb-5 mt-5"
+        className="container mx-auto d-block pt-5 pb-5"
         id="mietendeckel-wirkt"
       >
         <div className="row">
@@ -183,7 +183,7 @@ const IndexPage = () => {
               <h2 className="circle circle--white">Fragen zum Mietendeckel</h2>
             </div>
             <div className="col-12">
-              <Claims
+              <Accordion
                 items={[
                   {
                     title: "Echte Veränderungen",

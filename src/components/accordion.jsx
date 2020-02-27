@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./accordion.module.scss";
 import {
   Accordion,
   AccordionItem,
@@ -10,7 +9,7 @@ import {
 
 export default ({ items }) => (
   <Accordion
-    className={`${styles.claims} col-12 col-md-8 offset-0 offset-md-2`}
+    className="claims col-12 col-md-10 offset-0 offset-md-1"
     allowZeroExpanded={true}
   >
     {items.map((item, index) => (
@@ -18,10 +17,10 @@ export default ({ items }) => (
         <AccordionItemHeading>
           <AccordionItemButton>
             <p 
-              className={styles.itemButton}
+              className="itemButton"
             >{"".concat(index + 1, ". ")}</p>
             <p
-              className={styles.itemButton}
+              className="itemButton"
               dangerouslySetInnerHTML={{
                 __html: item.title
               }}
@@ -30,7 +29,7 @@ export default ({ items }) => (
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p
-            className={styles.itemContent}
+            className="itemContent"
             dangerouslySetInnerHTML={{ __html: item.text }}
           />
         </AccordionItemPanel>

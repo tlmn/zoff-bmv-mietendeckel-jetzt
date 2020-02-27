@@ -1,6 +1,10 @@
 .item {
   &Button {
     display: inline;
+    font-weight: 700;
+    &:hover {
+      cursor: pointer;
+    }
   }
   &Content {
     margin-top: 0;
