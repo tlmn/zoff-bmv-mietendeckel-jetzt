@@ -1,10 +1,12 @@
 h1 {
+  margin: -5rem 0 8rem 0 !important;
   &.circle {
     &::before {
-      height: 5rem;
-      width: 5rem;
-      left: -1.5rem;
-      top: -1rem;
+      height: 20rem;
+      width: 20rem;
+      left: 50%;
+      top: -150%;
+      margin-left: -10rem;
     }
   }
 }
@@ -49,6 +51,11 @@ h3 {
     display: inline;
     position: absolute;
     z-index: -1;
+  }
+  &--yellow {
+    &::before {
+      background-color: $c-1;
+    }
   }
   &--red {
     &::before {

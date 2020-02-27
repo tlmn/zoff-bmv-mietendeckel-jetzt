@@ -29,7 +29,7 @@ const IndexPage = () => {
             href: "#was-kann-mietendeckel"
           },
           { label: "Wie kann ich deckeln?", href: "#wie-kann-ich-deckeln" },
-          { label: "FAQ", href: "#faq" },
+          { label: "Fragen zum Mietendeckel", href: "#faq" },
           { label: "Nach dem Mietendeckel", href: "#nach-dem-mietendeckel" }
         ]}
       />
@@ -40,7 +40,7 @@ const IndexPage = () => {
           className="hero__overlay"
         ></div>
       </div>
-      <div>
+      <div className="text-center">
         <h1 className="circleTop circle circle--yellow text-center">
           Endlich!
           <br />
@@ -96,7 +96,7 @@ const IndexPage = () => {
           </div>
           <div className="row">
             <div className="col-lg-8 offset-lg-2">
-              <p className="teaser">
+              <p className="teaser pb-5 pt-3">
                 Der Mietendeckel soll die Entwicklungen auf dem Berliner
                 Mietmarkt stoppen. Mit drei Maßnahmen soll das gelingen:
                 Mietenstopp, Obergrenzen bei Wiedervermietung und Mietabsenkung.
@@ -178,7 +178,7 @@ const IndexPage = () => {
         <div className="container mx-auto d-block">
           <div className="row">
             <div className="col-12 text-center">
-              <h2 className="circle circle--white">FAQ</h2>
+              <h2 className="circle circle--white">Fragen zum Mietendeckel</h2>
             </div>
             <div className="col-12">
               <Claims
@@ -252,7 +252,7 @@ const IndexPage = () => {
             <h2 className="circle circle--red">
               Was kommt nach dem Mietendeckel?
             </h2>
-            <p className="teaser">
+            <p className="teaser pb-5 pt-3">
               Der Berliner Mietendeckel ist zunächst bis 2025 begrenzt. In
               dieser Verschaufpause für die Mieter*innen ist es an der Berliner
               Politik, nachhaltige Antworten auf die Wohnungsfrage zu finden.
