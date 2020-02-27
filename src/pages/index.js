@@ -7,13 +7,33 @@ import Image from "components/image";
 import Navbar from "components/navbar";
 
 const IndexPage = () => {
+  const links = {
+    twitter: "https://twitter.com/",
+    facebook: "https://www.facebook.com/",
+    bmv: "https://www.berliner-mieterverein.de/",
+    datenschutz:  "/datenschutz",
+    impressum: "/impressum",
+  };
+
   return (
     <>
       <Helmet />
       <div id="top" />
-      <Navbar />
+      <Navbar
+        links={links}
+        items={[
+          { label: "Mietendeckel wirkt!", href: "#mietendeckel-wirkt" },
+          { label: "Was kann der Mietendeckel?", href: "#was-kann-mietendeckel" },
+          { label: "Wie kann ich deckeln?", href: "#wie-kann-ich-deckeln" },
+          { label: "FAQ", href: "#faq" },
+          { label: "Nach dem Mietendeckel", href: "#nach-dem-mietendeckel" }
+        ]}
+      />
       <Image name="header-alt-werden-im-eigenen-kiez.jpg" />
-      <div className="container mx-auto d-block pt-5 pb-5" id="mietendeckel-wirkt">
+      <div
+        className="container mx-auto d-block pt-5 pb-5"
+        id="mietendeckel-wirkt"
+      >
         <div className="row">
           <div className="col">
             <h2 className="text-center">Mietendeckel wirkt!</h2>
@@ -41,11 +61,14 @@ const IndexPage = () => {
         </div>
       </div>
       <div className="container mx-auto d-block pt-5 pb-5">
-      <div className="row">
-        <div className="col-12 text-center">
-          <ReactPlayer className="mx-auto d-block" url="https://www.youtube.com/watch?v=FScfGU7rQaM" />
+        <div className="row">
+          <div className="col-12 text-center">
+            <ReactPlayer
+              className="mx-auto d-block"
+              url="https://www.youtube.com/watch?v=FScfGU7rQaM"
+            />
+          </div>
         </div>
-      </div>
       </div>
       <div className="bg--yellow pt-5 pb-5" id="was-kann-mietendeckel">
         <div className="container mx-auto d-block">
@@ -100,9 +123,9 @@ const IndexPage = () => {
                 finden, muss das häufig teuer bezahlen. Die gute Nachricht dank
                 Mietendeckel: Mieten, die mehr als 20 % über den Obergrenzen für
                 Wiedervermietung liegen, werden nicht nur eingefroren. Ab
-                23.11.2020 können sie abgesenkt werden! Wann genau eine überhöhte
-                Miete vorliegt, richtet sich nach Baujahr, Austattung und
-                Wohnlage des Hauses. Vermieter sind verpflichtet, ihre
+                23.11.2020 können sie abgesenkt werden! Wann genau eine
+                überhöhte Miete vorliegt, richtet sich nach Baujahr, Austattung
+                und Wohnlage des Hauses. Vermieter sind verpflichtet, ihre
                 Mieter*innen zu informieren. Ob Sie Ihre Miete absenken können
                 und wie hoch eine Absenkung wäre, berechnet unser
                 Mietendeckelrechner.
@@ -111,7 +134,10 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto d-block pt-5 pb-5" id="wie-kann-ich-deckeln">
+      <div
+        className="container mx-auto d-block pt-5 pb-5"
+        id="wie-kann-ich-deckeln"
+      >
         <div className="row text-center">
           <div className="col-12">
             <h2>Wie wirkt der Mietendeckel für mich?</h2>
@@ -198,7 +224,10 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto d-block pt-5 pb-5" id="nach-dem-mietendeckel">
+      <div
+        className="container mx-auto d-block pt-5 pb-5"
+        id="nach-dem-mietendeckel"
+      >
         <div className="row">
           <div className="col-sm-8 offset-sm-2">
             <h2 className="text-center">Was kommt nach dem Mietendeckel?</h2>
@@ -249,7 +278,6 @@ const IndexPage = () => {
             </p>
           </div>
         </div>
-      
       </div>
       <Footer />
     </>
