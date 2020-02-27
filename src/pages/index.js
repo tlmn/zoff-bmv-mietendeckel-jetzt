@@ -10,8 +10,8 @@ const IndexPage = () => {
   return (
     <>
       <Helmet />
-      <Navbar />
       <div id="top" />
+      <Navbar />
       <Image name="header-alt-werden-im-eigenen-kiez.jpg" />
       <div className="container mx-auto d-block pt-5 pb-5" id="mietendeckel-wirkt">
         <div className="row">
