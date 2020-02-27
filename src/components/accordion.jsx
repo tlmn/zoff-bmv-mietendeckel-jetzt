@@ -1,28 +1,30 @@
-import React from "react";
+import React from 'react';
 import {
   Accordion,
   AccordionItem,
   AccordionItemHeading,
   AccordionItemButton,
-  AccordionItemPanel
-} from "react-accessible-accordion";
+  AccordionItemPanel,
+} from 'react-accessible-accordion';
 
-export default ({ items }) => (
+const AccordionComponent = ({ items }) => (
   <Accordion
     className="claims col-12 col-md-10 offset-0 offset-md-1"
-    allowZeroExpanded={true}
+    allowZeroExpanded
   >
     {items.map((item, index) => (
       <AccordionItem className="mt-0 mt-xs-5">
         <AccordionItemHeading>
           <AccordionItemButton>
-            <p 
+            <p
               className="itemButton"
-            >{"".concat(index + 1, ". ")}</p>
+            >
+              {''.concat(index + 1, '. ')}
+            </p>
             <p
               className="itemButton"
               dangerouslySetInnerHTML={{
-                __html: item.title
+                __html: item.title,
               }}
             />
           </AccordionItemButton>
@@ -37,3 +39,5 @@ export default ({ items }) => (
     ))}
   </Accordion>
 );
+
+export default AccordionComponent;

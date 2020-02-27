@@ -1,7 +1,7 @@
-import React from "react";
-import Player from "../components/player";
+import React from 'react';
+import Player from '../components/player';
 
-export default () => (
+const Page = () => (
   <>
     <div
       className="container mx-auto d-block pt-5 pb-5"
@@ -43,3 +43,5 @@ export default () => (
     </div>
   </>
 );
+
+export default Page;

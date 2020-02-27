@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-export default () => (
+const Page = () => (
   <>
     <div className="bg--yellow pt-5 pb-5" id="was-kann-mietendeckel">
       <div className="container mx-auto d-block">
@@ -50,7 +50,7 @@ export default () => (
             </p>
           </div>
           <div className="col-12 col-lg-4">
-            <h3 class="circle circle--blue">Mietabsenkung</h3>
+            <h3 className="circle circle--blue">Mietabsenkung</h3>
             <p>
               Wer in den letzten Jahren das Glück hatte eine Wohnung zu finden,
               muss das häufig teuer bezahlen. Die gute Nachricht dank
@@ -68,3 +68,5 @@ export default () => (
     </div>
   </>
 );
+
+export default Page;

@@ -6,10 +6,10 @@ const Image = ({ name: fileName, ...props }) => {
   const { width, centered } = props;
   const styles = {
     width: width ? `${width}` : 'unset',
-    margin: centered ? `0 auto` : 'unset'
+    margin: centered ? '0 auto' : 'unset',
   };
   const {
-    allImageSharp: { images }
+    allImageSharp: { images },
   } = useStaticQuery(graphql`
     {
       allImageSharp {
@@ -28,9 +28,9 @@ const Image = ({ name: fileName, ...props }) => {
   const image = images.find(
     ({
       node: {
-        fluid: { originalName: name }
-      }
-    }) => name === fileName
+        fluid: { originalName: name },
+      },
+    }) => name === fileName,
   );
 
   return <Img style={styles} {...image.node} {...props} />;

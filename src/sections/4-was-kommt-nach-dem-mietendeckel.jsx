@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-export default () => (
+const Page = () => (
   <div
     className="container mx-auto d-block pt-5 pb-5"
     id="nach-dem-mietendeckel"
@@ -56,3 +56,5 @@ export default () => (
     </div>
   </div>
 );
+
+export default Page;

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default () => (
+const Page = () => (
   <>
     <div
       className="container mx-auto d-block pt-5 pb-5"
@@ -16,14 +16,16 @@ export default () => (
           <iframe
             src="https://mietendeckelrechner.berliner-mieterverein.de"
             id="mdr"
-            frameborder="0"
+            frameBorder="0"
             height="400"
             width="500"
             title="Mietendeckelrechner"
-          ></iframe>
+          />
           <script type="text/javascript" src="/js/iframe.js" />
         </div>
       </div>
     </div>
   </>
 );
+
+export default Page;

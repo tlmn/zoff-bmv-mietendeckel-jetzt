@@ -3,7 +3,6 @@ module.exports = {
     "gatsby-plugin-resolve-src",
     "gatsby-plugin-sass",
     "gatsby-transformer-sharp",
-    "gatsby-plugin-no-sourcemaps",
     {
       resolve: "gatsby-source-filesystem",
       options: {

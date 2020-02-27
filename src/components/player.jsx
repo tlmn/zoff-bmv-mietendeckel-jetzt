@@ -1,7 +1,7 @@
-import React from "react";
-import ReactPlayer from "react-player";
+import React from 'react';
+import ReactPlayer from 'react-player';
 
-export default ({ videoURL, classNames }) => (
+const Player = ({ videoURL, classNames }) => (
   <div className={classNames}>
     <div className="wrapper__player">
       <ReactPlayer
@@ -14,3 +14,5 @@ export default ({ videoURL, classNames }) => (
     </div>
   </div>
 );
+
+export default Player;

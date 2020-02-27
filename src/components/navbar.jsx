@@ -1,11 +1,11 @@
-import React, { useState, useRef, useLayoutEffect } from "react";
-import LogoBMV from "../images/logo-bmv";
-import LogoFacebook from "../images/facebook";
-import LogoTwitter from "../images/twitter";
-import Scrollspy from "react-scrollspy";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import React, { useState, useRef, useLayoutEffect } from 'react';
+import Scrollspy from 'react-scrollspy';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+import LogoBMV from '../images/logo-bmv';
+import LogoFacebook from '../images/facebook';
+import LogoTwitter from '../images/twitter';
 
-export default ({ items, links }) => {
+const NavBar = ({ items, links }) => {
   const [menuHeight, setMenuHeight] = useState(0);
   const refMenu = useRef(null);
   const offset = 50;
@@ -15,12 +15,12 @@ export default ({ items, links }) => {
       setMenuHeight(refMenu.current.scrollHeight);
     }
     FsetMenuHeight();
-    window.addEventListener("resize", FsetMenuHeight);
-    return () => window.removeEventListener("resize", FsetMenuHeight);
+    window.addEventListener('resize', FsetMenuHeight);
+    return () => window.removeEventListener('resize', FsetMenuHeight);
   }, []);
 
   const hrefs = [];
-  items.map(item => hrefs.push(item.href.substr(1)));
+  items.map((item) => hrefs.push(item.href.substr(1)));
 
   return (
     <>
@@ -35,7 +35,7 @@ export default ({ items, links }) => {
             className="navbar__menu"
             offset={-menuHeight}
           >
-            {items.map(item => (
+            {items.map((item) => (
               <li>
                 <AnchorLink offset={offset} href={item.href}>
                   {item.label}
@@ -56,11 +56,14 @@ export default ({ items, links }) => {
             </li>
           </ul>
         </div>
-        <div style={{ height: menuHeight + "px" }} />
+        <div style={{ height: `${menuHeight}px` }} />
       </div>
       <div className="d-block d-sm-none">
-        <LogoBMV width="40"/>
-        mobile Navigation</div>
+        <LogoBMV width="40" />
+        mobile Navigation
+      </div>
     </>
   );
 };
+
+export default NavBar;
