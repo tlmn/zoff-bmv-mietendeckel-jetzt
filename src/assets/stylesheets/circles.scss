@@ -1,11 +1,15 @@
 h1 {
-  margin: -5rem 0 8rem 0 !important;
+  // margin: -5rem 0 8rem 0 !important;
   &.circle {
+      width: 15rem;
+      margin: 0 auto;
+      margin-top: -4rem;
+      margin-bottom: 4rem;
     &::before {
       height: 20rem;
       width: 20rem;
       left: 50%;
-      top: -150%;
+      top: -100%;
       margin-left: -10rem;
     }
   }

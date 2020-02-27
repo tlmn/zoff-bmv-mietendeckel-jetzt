@@ -48,7 +48,7 @@ const IndexPage = () => {
         </h1>
       </div>
       <div
-        className="container mx-auto d-block pt-5 pb-5"
+        className="container mx-auto d-block pt-5 pb-5 mt-5"
         id="mietendeckel-wirkt"
       >
         <div className="row">
