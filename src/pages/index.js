@@ -42,7 +42,7 @@ const IndexPage = () => {
       </div>
       <div className="text-center">
         <h1 className="circleTop circle circle--yellow text-center">
-          Endlich!
+          <i>Endlich!</i>
           <br />
           Alt werden im eigenen Kiez
         </h1>
