@@ -1,9 +1,10 @@
 .bg {
   &--yellow {
+    //z-index: -2;
     background-color: $c-1;
   }
-  &--cornflower-blue {
-    background-color: $c-4;
+  &--flamingo {
+    background-color: $c-3;
   }
   &--congress-blue {
     background-color: $c-5;

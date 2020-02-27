@@ -21,19 +21,19 @@
       display: inline;
       margin-left: 1rem;
       font-weight: 700;
-     &.is-current > a {
-       text-decoration: underline !important;
-     } 
+      &.is-current > a {
+        border-bottom: 3px black solid;
+      }
       & > a {
         text-decoration: none;
         &:hover {
-          text-decoration: underline;
+          border-bottom: 3px black solid;
           & svg {
             fill: $c-3;
           }
         }
         & svg {
-          fill: #2D2D37;
+          fill: #2d2d37;
         }
       }
     }

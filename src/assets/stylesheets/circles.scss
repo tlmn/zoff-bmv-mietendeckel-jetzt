@@ -1,0 +1,48 @@
+h3 {
+  &.circle {
+    &::before {
+      height: 3rem;
+      width: 3rem;
+      left: -1rem;
+      top: -0.6rem;
+    }
+  }
+}
+h2 {
+  &.circle {
+    &::before {
+      height: 5rem;
+      width: 5rem;
+      left: -1.5rem;
+      top: -1rem;
+    }
+  }
+}
+
+.circle {
+  position: relative;
+  z-index: 0;
+  &::before {
+    border-radius: 50%;
+    content: "";
+
+    display: inline;
+    position: absolute;
+    z-index: -1;
+  }
+  &--red {
+    &::before {
+      background-color: $c-3;
+    }
+  }
+  &--blue {
+    &::before {
+      background-color: $c-4;
+    }
+  }
+  &--white {
+    &::before {
+      background-color: $c-7;
+    }
+  }
+}

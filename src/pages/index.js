@@ -35,15 +35,18 @@ const IndexPage = () => {
       />
       <div>
         <Image name="header-alt-werden-im-eigenen-kiez.jpg" />
-        <div style={{ paddingTop: "50%", marginTop:"-50%" }} className="hero__overlay"></div>
+        <div
+          style={{ paddingTop: "50%", marginTop: "-50%" }}
+          className="hero__overlay"
+        ></div>
       </div>
       <div
         className="container mx-auto d-block pt-5 pb-5"
         id="mietendeckel-wirkt"
       >
         <div className="row">
-          <div className="col">
-            <h2 className="text-center">Mietendeckel wirkt!</h2>
+          <div className="col text-center">
+            <h2>Mietendeckel wirkt!</h2>
           </div>
         </div>
         <div className="row">
@@ -77,9 +80,9 @@ const IndexPage = () => {
       </div>
       <div className="bg--yellow pt-5 pb-5" id="was-kann-mietendeckel">
         <div className="container mx-auto d-block">
-          <div className="row text-center">
-            <div className="col-12">
-              <h2>Was kann der Mietendeckel?</h2>
+          <div className="row">
+            <div className="col-12 text-center">
+              <h2 className="circle circle--md circle--red">Was kann der Mietendeckel?</h2>
             </div>
           </div>
           <div className="row">
@@ -96,8 +99,8 @@ const IndexPage = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-4">
-              <h3>Mietenstopp</h3>
+            <div className="col-12 col-lg-4">
+              <h3 className="circle circle--white">Mietenstopp</h3>
               <p>
                 Ob Staffelmiete oder einfache Erhöhung: Mieterhöhungen machen
                 Wohnen immer teurer. Bis 2025 werden in Berlin die Mieten dank
@@ -108,8 +111,8 @@ const IndexPage = () => {
                 Miethöhungen!
               </p>
             </div>
-            <div className="col-4">
-              <h3>Wiedervermietung</h3>
+            <div className="col-12 col-lg-4">
+              <h3 className="circle circle--red">Wiedervermietung</h3>
               <p>
                 Bei Mieterwechsel drehen Vermieter*innen oftmals an der
                 Preisschraube. So steigen Mietpreise von Mieter*in zu Mieter*in
@@ -121,8 +124,8 @@ const IndexPage = () => {
                 unser Mietendeckelrechner.
               </p>
             </div>
-            <div className="col-4">
-              <h3>Mietabsenkung</h3>
+            <div className="col-12 col-lg-4">
+              <h3 class="circle circle--blue">Mietabsenkung</h3>
               <p>
                 Wer in den letzten Jahren das Glück hatte eine Wohnung zu
                 finden, muss das häufig teuer bezahlen. Die gute Nachricht dank
@@ -145,7 +148,9 @@ const IndexPage = () => {
       >
         <div className="row text-center">
           <div className="col-12">
-            <h2>Wie wirkt der Mietendeckel für mich?</h2>
+            <h2 className="circle circle--blue">
+              Wie wirkt der Mietendeckel für mich?
+            </h2>
           </div>
           <div className="col-12">
             <iframe
@@ -160,11 +165,11 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
-      <div className="bg--cornflower-blue pt-5 pb-5" id="faq">
+      <div className="bg--flamingo pt-5 pb-5" id="faq">
         <div className="container mx-auto d-block">
           <div className="row">
             <div className="col-12 text-center">
-              <h2>FAQ</h2>
+              <h2 className="circle circle--white">FAQ</h2>
             </div>
             <div className="col-12">
               <Claims
@@ -234,8 +239,10 @@ const IndexPage = () => {
         id="nach-dem-mietendeckel"
       >
         <div className="row">
-          <div className="col-sm-8 offset-sm-2">
-            <h2 className="text-center">Was kommt nach dem Mietendeckel?</h2>
+          <div className="col-sm-8 offset-sm-2 text-center">
+            <h2 className=" circle circle--red">
+              Was kommt nach dem Mietendeckel?
+            </h2>
             <p className="teaser">
               Der Berliner Mietendeckel ist zunächst bis 2025 begrenzt. In
               dieser Verschaufpause für die Mieter*innen ist es an der Berliner
