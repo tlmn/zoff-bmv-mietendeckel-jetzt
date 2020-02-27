@@ -40,6 +40,13 @@ const IndexPage = () => {
           className="hero__overlay"
         ></div>
       </div>
+      <div>
+        <h1 className="circleTop circle circle--yellow text-center">
+          Endlich!
+          <br />
+          Alt werden im eigenen Kiez
+        </h1>
+      </div>
       <div
         className="container mx-auto d-block pt-5 pb-5"
         id="mietendeckel-wirkt"
@@ -50,7 +57,7 @@ const IndexPage = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-sm-8 offset-sm-2">
+          <div className="col-lg-8 offset-lg-2">
             <p className="teaser">
               Seit Jahren ächzt Berlin unter steigenden Mieten, Spekulation und
               Verdrängung. Ob im eigenen Haus, im Block oder im Kiez: gegen
@@ -82,11 +89,13 @@ const IndexPage = () => {
         <div className="container mx-auto d-block">
           <div className="row">
             <div className="col-12 text-center">
-              <h2 className="circle circle--md circle--red">Was kann der Mietendeckel?</h2>
+              <h2 className="circle circle--md circle--red">
+                Was kann der Mietendeckel?
+              </h2>
             </div>
           </div>
           <div className="row">
-            <div className="col-sm-8 offset-sm-2">
+            <div className="col-lg-8 offset-lg-2">
               <p className="teaser">
                 Der Mietendeckel soll die Entwicklungen auf dem Berliner
                 Mietmarkt stoppen. Mit drei Maßnahmen soll das gelingen:
@@ -239,8 +248,8 @@ const IndexPage = () => {
         id="nach-dem-mietendeckel"
       >
         <div className="row">
-          <div className="col-sm-8 offset-sm-2 text-center">
-            <h2 className=" circle circle--red">
+          <div className="col-lg-8 offset-lg-2 offset-0 col-12 text-center">
+            <h2 className="circle circle--red">
               Was kommt nach dem Mietendeckel?
             </h2>
             <p className="teaser">
@@ -255,7 +264,7 @@ const IndexPage = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-4">
+          <div className="col-12 col-lg-4">
             <h3>Deckel auf Grundpreise</h3>
             <p>
               Esse fugiat aliqua exercitation id veniam sit. Sint duis et
@@ -267,7 +276,7 @@ const IndexPage = () => {
               Commodo officia in eiusmod labore ex sunt non duis sit.
             </p>
           </div>
-          <div className="col-4">
+          <div className="col-12 col-lg-4">
             <h3>Vergesellschaftung großer Immobilienkonzerne</h3>
             <p>
               Occaecat minim ex quis adipisicing consectetur deserunt aliqua
@@ -277,7 +286,7 @@ const IndexPage = () => {
               qui minim aliquip qui adipisicing ullamco cillum cillum culpa.
             </p>
           </div>
-          <div className="col-4">
+          <div className="col-12 col-lg-4">
             <h3>Mietendeckel? Bundesweit!</h3>
             <p>
               Dolore eiusmod voluptate eiusmod aute ea. Labore pariatur ad velit
