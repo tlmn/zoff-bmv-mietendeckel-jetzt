@@ -25,7 +25,7 @@ const IndexPage = () => {
         items={[
           { label: "Mietendeckel wirkt!", href: "#mietendeckel-wirkt" },
           {
-            label: "Was kann der Mietendeckel?",
+            label: "Was ist der Mietendeckel?",
             href: "#was-kann-mietendeckel"
           },
           { label: "Wie kann ich deckeln?", href: "#wie-kann-ich-deckeln" },
@@ -92,7 +92,7 @@ const IndexPage = () => {
           <div className="row">
             <div className="col-12 text-center">
               <h2 className="circle circle--md circle--red">
-                Was kann der Mietendeckel?
+                Was ist der Mietendeckel?
               </h2>
             </div>
           </div>
