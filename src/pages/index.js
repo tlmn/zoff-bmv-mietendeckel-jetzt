@@ -12,8 +12,8 @@ const IndexPage = () => {
     twitter: "https://twitter.com/",
     facebook: "https://www.facebook.com/",
     bmv: "https://www.berliner-mieterverein.de/",
-    datenschutz:  "/datenschutz",
-    impressum: "/impressum",
+    datenschutz: "/datenschutz",
+    impressum: "/impressum"
   };
 
   return (
@@ -24,13 +24,19 @@ const IndexPage = () => {
         links={links}
         items={[
           { label: "Mietendeckel wirkt!", href: "#mietendeckel-wirkt" },
-          { label: "Was kann der Mietendeckel?", href: "#was-kann-mietendeckel" },
+          {
+            label: "Was kann der Mietendeckel?",
+            href: "#was-kann-mietendeckel"
+          },
           { label: "Wie kann ich deckeln?", href: "#wie-kann-ich-deckeln" },
           { label: "FAQ", href: "#faq" },
           { label: "Nach dem Mietendeckel", href: "#nach-dem-mietendeckel" }
         ]}
       />
-      <Image name="header-alt-werden-im-eigenen-kiez.jpg" />
+      <div>
+        <Image name="header-alt-werden-im-eigenen-kiez.jpg" />
+        <div style={{ paddingTop: "50%", marginTop:"-50%" }} className="hero__overlay"></div>
+      </div>
       <div
         className="container mx-auto d-block pt-5 pb-5"
         id="mietendeckel-wirkt"
@@ -63,10 +69,10 @@ const IndexPage = () => {
       </div>
       <div className="container mx-auto d-block pb-5">
         <div className="row">
-            <Player
-              classNames="col-12 offset-0 col-sm-10 offset-sm-1"
-              videoURL="https://www.youtube.com/watch?v=FScfGU7rQaM"
-            />
+          <Player
+            classNames="col-12 offset-0 col-sm-10 offset-sm-1"
+            videoURL="https://www.youtube.com/watch?v=FScfGU7rQaM"
+          />
         </div>
       </div>
       <div className="bg--yellow pt-5 pb-5" id="was-kann-mietendeckel">

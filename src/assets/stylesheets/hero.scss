@@ -1,0 +1,12 @@
+.hero {
+  &__overlay {
+    mix-blend-mode: multiply;
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(255, 255, 255, 1) 30%
+    );
+    padding-top: 50%;
+    margin-top: -50%;
+  }
+}
