@@ -1,4 +1,7 @@
 div[class^="accordion__button"] {
+  &:focus {
+    outline: 0 !important;
+  }
   &[aria-expanded="true"] {
     & > .item__button {
       &:first-of-type {
@@ -11,8 +14,7 @@ div[class^="accordion__button"] {
     }
   }
   &[aria-expanded="false"] {
-  
-      margin-bottom: 1rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -24,9 +26,7 @@ div[class^="accordion__button"] {
     &:hover {
       cursor: pointer;
     }
-    &:focus {
-      outline: 0 !important;
-    }
+
     &:first-of-type {
       &::before {
         content: url(../../images/triangle.svg);
