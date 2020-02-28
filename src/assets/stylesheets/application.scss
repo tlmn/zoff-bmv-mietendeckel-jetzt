@@ -11,12 +11,16 @@
 @import "hero";
 @import "components/__components";
 @import "normalize.css/normalize";
+@import "hamburgers/_sass/hamburgers/hamburgers";
+@import "hamburgers/_sass/hamburgers/_base";
+@import "hamburgers/_sass/hamburgers/types/_squeeze";
 
 // BOOTSTRAP
 @import "bootstrap/scss/_functions";
 @import "bootstrap/scss/_variables";
 @import "bootstrap/scss/bootstrap-grid";
 @import "bootstrap/scss/utilities/_spacing";
+@import "bootstrap/scss/utilities/_position";
 @import "bootstrap/scss/mixins/_text-truncate";
 @import "bootstrap/scss/mixins/_text-emphasis";
 @import "bootstrap/scss/mixins/_text-hide";

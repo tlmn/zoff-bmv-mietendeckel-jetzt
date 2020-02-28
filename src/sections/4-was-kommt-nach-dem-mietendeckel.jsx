@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Page = () => (
   <div
@@ -8,6 +8,8 @@ const Page = () => (
     <div className="row">
       <div className="col-lg-8 offset-lg-2 offset-0 col-12 text-center">
         <h2 className="circle circle--red">Was kommt nach dem Mietendeckel?</h2>
+      </div>
+      <div className="col-lg-8 offset-lg-2 offset-0 col-12">
         <p className="teaser pb-5 pt-3">
           Der Berliner Mietendeckel ist zunächst bis 2025 begrenzt. In dieser
           Verschaufpause für die Mieter*innen ist es an der Berliner Politik,

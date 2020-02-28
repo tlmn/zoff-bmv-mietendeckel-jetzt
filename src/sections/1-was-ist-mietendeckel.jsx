@@ -27,6 +27,7 @@ const Page = () => (
         <div className="row">
           <div className="col-12 col-lg-4">
             <h3 className="circle circle--white">Mietenstopp</h3>
+            <p className="font-weight-bold">seit 23. Februar 2020</p>
             <p>
               Ob Staffelmiete oder einfache Erhöhung: Mieterhöhungen machen
               Wohnen immer teurer. Bis 2025 werden in Berlin die Mieten dank
@@ -38,6 +39,7 @@ const Page = () => (
           </div>
           <div className="col-12 col-lg-4">
             <h3 className="circle circle--red">Wiedervermietung</h3>
+            <p className="font-weight-bold">seit 23. Februar 2020</p>
             <p>
               Bei Mieterwechsel drehen Vermieter*innen oftmals an der
               Preisschraube. So steigen Mietpreise von Mieter*in zu Mieter*in
@@ -51,6 +53,7 @@ const Page = () => (
           </div>
           <div className="col-12 col-lg-4">
             <h3 className="circle circle--blue">Mietabsenkung</h3>
+            <p className="font-weight-bold">ab 23. November 2020</p>
             <p>
               Wer in den letzten Jahren das Glück hatte eine Wohnung zu finden,
               muss das häufig teuer bezahlen. Die gute Nachricht dank
