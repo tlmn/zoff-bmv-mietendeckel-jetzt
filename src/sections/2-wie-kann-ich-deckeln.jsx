@@ -14,7 +14,7 @@ const Page = () => (
         </div>
         <div className="col-12">
           <iframe
-            src="https://mietendeckelrechner.berliner-mieterverein.de"
+            src="http://mietendeckelrechner.berliner-mieterverein.de"
             id="mdr"
             frameBorder="0"
             height="400"
