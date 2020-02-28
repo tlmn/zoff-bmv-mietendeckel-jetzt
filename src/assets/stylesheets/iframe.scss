@@ -1,0 +1,5 @@
+iframe {
+  @include mq($from: mobile, $until: tablet) {
+    max-width: 90vw;
+  }
+}

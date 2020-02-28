@@ -18,7 +18,6 @@ const Page = () => (
             id="mdr"
             frameBorder="0"
             height="400"
-            width="500"
             title="Mietendeckelrechner"
           />
           <script type="text/javascript" src="/js/iframe.js" />
