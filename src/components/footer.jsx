@@ -1,19 +1,32 @@
-import React from 'react';
-import { Link } from 'gatsby';
+import React from "react";
+import { Link } from "gatsby";
 
 const Footer = () => (
   <div className="bg--yellow pt-5 pb-5">
     <div className="container mx-auto d-block">
-      <Link to="/impressum">Impressum</Link>
-      <Link to="/datenschutz">Datenschutz</Link>
-      <p>Kontakt</p>
-      <a
-        href="https://www.berliner-mieterverein.de"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Berliner Mieterverein
-      </a>
+      <div className="row">
+        <div className="col-12 col-md-6 col-lg-3">
+          <Link to="/impressum">
+            <h4>Impressum</h4>
+          </Link>
+        </div>
+        <div className="col-12 col-md-6 col-lg-3">
+          <Link to="/datenschutz">
+            <h4>Datenschutz</h4>
+          </Link>
+        </div>
+        <div className="col-12 col-md-6 col-lg-3">
+          <h4>Kontakt</h4>
+          <a href="mailto:mietendeckel@berliner-mieterverein.de">
+            mietendeckel@berliner-mieterverein.de
+          </a>
+        </div>
+        <div className="col-12 col-md-6 col-lg-3">
+          <h4>Berliner Mieterverein e.V.</h4>
+          Spichernstraße 1<br />
+          10777 Berlin
+        </div>
+      </div>
     </div>
   </div>
 );
