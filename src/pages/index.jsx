@@ -28,13 +28,13 @@ const IndexPage = () => {
       <Navbar
         links={links}
         items={[
-          { label: 'Mietendeckel wirkt!', href: '#mietendeckel-wirkt' },
           {
             label: 'Was ist der Mietendeckel?',
             href: '#was-kann-mietendeckel',
           },
           { label: 'Wie kann ich deckeln?', href: '#wie-kann-ich-deckeln' },
-          { label: 'Fragen zum Mietendeckel', href: '#faq' },
+          { label: 'FAQ Mietendeckel', href: '#faq' },
+          { label: 'Warum Mietendeckel?', href: '#warum-mietendeckel' },
           { label: 'Nach dem Mietendeckel', href: '#nach-dem-mietendeckel' },
         ]}
       />
@@ -42,15 +42,15 @@ const IndexPage = () => {
         images={[
           {
             src: 'header-keine-angst-vor-mieterhoehungen.jpg',
-            text: '<i>Endlich!</i><br/>Keine Angst vor Mieterhöhungen',
+            text: 'Keine Angst vor Mieterhöhungen',
           },
           {
             src: 'header-alt-werden-im-eigenen-kiez.jpg',
-            text: '<i>Endlich!</i><br/>Alt werden im eigenen Kiez',
+            text: 'Alt werden im eigenen Kiez',
           },
           {
             src: 'header-platz-fuer-freunde.jpg',
-            text: '<i>Endlich!</i><br/>Platz für Freunde',
+            text: 'Platz für Freunde',
           },
         ]}
       />

@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "./image";
 
 const Hero = ({ images }) => {
   const number = Math.floor(Math.random() * images.length);
-  const image = images[number];
+  const [image] = useState(images[number]);
+
   return (
     <>
       <div>
@@ -14,7 +15,13 @@ const Hero = ({ images }) => {
         />
       </div>
       <div className="circleTop circle circle--yellow">
-        <h1 dangerouslySetInnerHTML={{ __html: image.text }} />
+        <h1>
+          <span>
+            <i>Endlich!</i>
+            <br />
+            {image.text}
+          </span>
+        </h1>
       </div>
     </>
   );
