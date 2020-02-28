@@ -52,6 +52,14 @@ const IndexPage = () => {
             src: 'header-platz-fuer-freunde.jpg',
             text: 'Platz für Freunde',
           },
+          {
+            src: 'header-alleine-wohnen.jpg',
+            text: 'Alleine wohnen',
+          },
+          {
+            src: 'header-mehr-fuer-uns.jpg',
+            text: 'Mehr Geld für uns',
+          }
         ]}
       />
       <MietendeckelWirkt />
