@@ -10,6 +10,13 @@
     flex-grow: 1;
     justify-content: flex-end;
     display: flex !important;
+    & > a {
+      text-decoration: none;
+      &:hover {
+        border: 0 !important;
+        text-decoration: none;
+      }
+    }
   }
   &__menu,
   &__socialmedia {

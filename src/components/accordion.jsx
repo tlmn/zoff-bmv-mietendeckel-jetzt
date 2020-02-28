@@ -9,7 +9,7 @@ import {
 
 const AccordionComponent = ({ items }) => (
   <Accordion
-    className="claims col-12 col-md-10 offset-0 offset-md-1"
+    className="col-12 col-md-10 offset-0 offset-md-1 mt-5"
     allowZeroExpanded
   >
     {items.map((item, index) => (
@@ -17,12 +17,12 @@ const AccordionComponent = ({ items }) => (
         <AccordionItemHeading>
           <AccordionItemButton>
             <p
-              className="itemButton"
+              className="item__button"
             >
               {''.concat(index + 1, '. ')}
             </p>
             <p
-              className="itemButton"
+              className="item__button"
               dangerouslySetInnerHTML={{
                 __html: item.title,
               }}
@@ -31,7 +31,7 @@ const AccordionComponent = ({ items }) => (
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p
-            className="itemContent"
+            className="item__content"
             dangerouslySetInnerHTML={{ __html: item.text }}
           />
         </AccordionItemPanel>

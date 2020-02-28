@@ -1,16 +1,38 @@
+div[class^="accordion__button"] {
+  &[aria-expanded="true"] {
+    & > .item__button {
+      &:first-of-type {
+        &::before {
+          transform: rotate(60deg);
+          transform-origin: center center;
+          transition: all 0.5s;
+        }
+      }
+    }
+  }
+}
+
 .item {
-  &Button {
+  &__button {
     display: inline;
     font-weight: 700;
     &:hover {
       cursor: pointer;
     }
+    &:focus {
+      outline: 0 !important;
+    }
+    &:first-of-type {
+      &::before {
+        content: url(../../../static/images/triangle.svg);
+        width: 20px;
+        position: absolute;
+        left: -1rem;
+        transition: all 0.5s;
+      }
+    }
   }
-  &Content {
+  &__content {
     margin-top: 0;
   }
-}
-
-.claims {
-  margin-top: 4rem;
 }
