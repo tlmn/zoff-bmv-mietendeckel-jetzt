@@ -10,12 +10,17 @@ div[class^="accordion__button"] {
       }
     }
   }
+  &[aria-expanded="false"] {
+  
+      margin-bottom: 1rem;
+  }
 }
 
 .item {
   &__button {
     display: inline;
     font-weight: 700;
+    font-size: 1.5rem;
     &:hover {
       cursor: pointer;
     }
