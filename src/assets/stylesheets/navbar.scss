@@ -4,8 +4,11 @@
   z-index: 1000;
   background-color: #fff;
   display: flex;
-  @include mq($until: mobile) {
+  @include mq($until: tablet) {
     flex-wrap: wrap;
+  }
+  @include mq($until: tablet) {
+    justify-content: space-between;
   }
   width: 100vw;
   align-items: center;
@@ -25,12 +28,24 @@
   &__socialmedia {
     list-style: none;
     display: inline;
+    @include mq($until: tablet) {
+      display: block;
+      background-color: $c-1;
+      padding: 1rem;
+    }
     margin: 0;
     padding: 0;
     & > li {
       display: inline-block;
       margin-left: 1rem;
       font-weight: 700;
+      @include mq($until: tablet) {
+        margin-left: 0 !important;
+        margin-bottom: 1rem;
+      }
+      @include mq($until: tablet) {
+        width: 100%;
+      }
       &.is-current > a {
         border-bottom: 3px black solid;
       }
