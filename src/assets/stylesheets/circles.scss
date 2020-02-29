@@ -51,6 +51,9 @@ h3 {
       height: 3rem;
       width: 3rem;
       left: -1rem;
+      @include mq($until: tablet) {
+        left: -0.5rem;
+      }
       top: -0.6rem;
     }
   }

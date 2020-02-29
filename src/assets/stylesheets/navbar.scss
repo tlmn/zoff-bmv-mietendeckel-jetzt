@@ -1,5 +1,8 @@
 .navbar {
   padding: 1rem;
+  @include mq($until: tablet) {
+    padding: 0.2rem 0.5rem;
+  }
   position: fixed;
   z-index: 1000;
   background-color: #fff;

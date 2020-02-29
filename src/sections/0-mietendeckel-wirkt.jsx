@@ -4,7 +4,7 @@ import Player from '../components/player';
 const Page = () => (
   <>
     <div
-      className="container mx-auto d-block pt-5 pb-5"
+      className="container mx-auto d-block pt-3 pt-md-5 pb-3 pb-md-5"
       id="mietendeckel-wirkt"
     >
       <div className="row">

@@ -34,6 +34,9 @@ div[class^="accordion__button"] {
         fill: #fff;
         position: absolute;
         left: -1rem;
+        @include mq($until: tablet) {
+          left: -0.7rem;
+        }
         transition: all 0.2s;
       }
     }
