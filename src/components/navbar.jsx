@@ -55,9 +55,11 @@ const NavBar = ({ items, links }) => {
             </a>
           </li>
         </ul>
-        <span className="d-block d-md-none font-weight-bold">Mietendeckel, jetzt!</span>
+        <span className="d-block d-md-none font-weight-bold">
+          Mietendeckel, jetzt!
+        </span>
         <button
-          class="hamburger hamburger--squeeze d-flex d-md-none"
+          className={`${showMenu === true ? "is-active" : ""} hamburger hamburger--squeeze d-flex d-md-none`}
           type="button"
           aria-label="Menu"
           aria-controls="navigation"
@@ -69,21 +71,34 @@ const NavBar = ({ items, links }) => {
             <span class="hamburger-inner"></span>
           </span>
         </button>
-        <Scrollspy
-          items={hrefs}
-          currentClassName="is-current"
-          className="navbar__menu"
-          style={{ display: showMenu === true ? "block" : "none" }}
-          offset={-menuHeight}
-        >
-          {items.map(item => (
+        <div style={{ display: showMenu === true ? "block" : "none" }}>
+          <Scrollspy
+            items={hrefs}
+            currentClassName="is-current"
+            className="navbar__menu"
+            offset={-menuHeight}
+          >
+            {items.map(item => (
+              <li>
+                <AnchorLink offset={offset} href={item.href}>
+                  {item.label}
+                </AnchorLink>
+              </li>
+            ))}
+          </Scrollspy>
+          <ul className="navbar__socialmedia d-flex d-md-none">
             <li>
-              <AnchorLink offset={offset} href={item.href}>
-                {item.label}
-              </AnchorLink>
+              <a href={links.facebook}>
+                <LogoFacebook width="30" isYellow />
+              </a>
             </li>
-          ))}
-        </Scrollspy>
+            <li>
+              <a href={links.twitter}>
+                <LogoTwitter width="30" isYellow />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
       <div style={{ height: `${menuHeight}px` }} />
     </>

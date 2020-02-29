@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import LogoBMV from "../images/logo-bmv";
 
 const Footer = () => (
   <div className="bg--yellow pt-5 pb-5">
@@ -22,7 +23,10 @@ const Footer = () => (
           </a>
         </div>
         <div className="col-12 col-md-6 col-lg-3">
-          <h4>Berliner Mieterverein e.V.</h4>
+          <h4 className="d-flex" style={{ alignItems: "end" }}>
+            <LogoBMV isBlack width="20" />
+            <span className="ml-1">Berliner Mieterverein e.V.</span>
+          </h4>
           Spichernstraße 1<br />
           10777 Berlin
         </div>
