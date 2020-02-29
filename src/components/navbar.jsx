@@ -55,7 +55,7 @@ const NavBar = ({ items, links }) => {
             </a>
           </li>
         </ul>
-        <span className="d-block d-md-none">Mietendeckel, jetzt!</span>
+        <span className="d-block d-md-none font-weight-bold">Mietendeckel, jetzt!</span>
         <button
           class="hamburger hamburger--squeeze d-flex d-md-none"
           type="button"

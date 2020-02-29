@@ -9,6 +9,11 @@ div {
     font-size: 2em;
     margin: 0 auto;
     margin-top: calc(#{$circle-width} / -2);
+    @include mq($until: tablet) {
+      margin-top: calc(#{$circle-width} / -3);
+      height: calc(#{$circle-width} / 1.25);
+      width: calc(#{$circle-width} / 1.25);
+    }
     & > h1 {
       line-height: 1;
       width: 100%;
@@ -22,7 +27,6 @@ div {
         padding: 1.5rem;
         word-break: break-word;
         hyphens: auto;
-
       }
       & > i {
         font-size: 130%;
