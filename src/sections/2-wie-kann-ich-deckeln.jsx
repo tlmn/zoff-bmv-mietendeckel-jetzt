@@ -24,7 +24,7 @@ const Page = () => (
               frameBorder="0"
               height="400"
               title="Mietendeckelrechner"
-              className="pt-4"
+              className="p-4"
             />
           </div>
         </div>
