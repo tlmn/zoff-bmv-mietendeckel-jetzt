@@ -8,7 +8,8 @@ import MietendeckelWirkt from '../sections/0-mietendeckel-wirkt';
 import WasIstMietendeckel from '../sections/1-was-ist-mietendeckel';
 import WieKannIchDeckeln from '../sections/2-wie-kann-ich-deckeln';
 import FragenZumMietendeckel from '../sections/3-fragen-zum-mietendeckel';
-import WasKommtNachDemMietendeckel from '../sections/4-was-kommt-nach-dem-mietendeckel';
+import WarumMietendeckel from '../sections/4-warum-mietendeckel';
+import WasKommtNachDemMietendeckel from '../sections/5-was-kommt-nach-dem-mietendeckel';
 
 import '../assets/stylesheets/application.scss';
 
@@ -66,6 +67,7 @@ const IndexPage = () => {
       <WasIstMietendeckel />
       <WieKannIchDeckeln />
       <FragenZumMietendeckel />
+      <WarumMietendeckel />
       <WasKommtNachDemMietendeckel />
       <Footer />
     </>

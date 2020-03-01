@@ -2,12 +2,12 @@ import React from 'react';
 
 const Page = () => (
   <>
-    <div className="bg--yellow pt-5 pb-5" id="was-kann-mietendeckel">
+    <div className="pt-5 pb-5" id="warum-mietendeckel">
       <div className="container mx-auto d-block">
         <div className="row">
           <div className="col-12 text-center">
             <h2 className="circle circle--md circle--red">
-              Was ist der Mietendeckel?
+              Warum braucht Berlin einen Mietendeckel?
             </h2>
           </div>
         </div>
