@@ -4,3 +4,9 @@
     outline: 0 !important;
   }
 }
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+  border-radius: 0 !important;
+}
