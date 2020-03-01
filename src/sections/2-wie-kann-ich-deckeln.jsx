@@ -21,7 +21,6 @@ const Page = () => (
             title="Mietendeckelrechner"
             className="mietendeckelrechner pt-4"
           />
-          <script type="text/javascript" src="/js/iframe.js" />
         </div>
       </div>
     </div>
