@@ -15,15 +15,18 @@ const Page = () => (
             kannst.
           </p>
         </div>
-        <div className="col-12">
-          <iframe
-            src="https://mietendeckelrechner.berliner-mieterverein.de/md-jetzt"
-            id="mdr"
-            frameBorder="0"
-            height="400"
-            title="Mietendeckelrechner"
-            className="mietendeckelrechner pt-4"
-          />
+        <div className="col-12 mb-5">
+          <div className="calculator__wrapper">
+            <div className="calculator__title">Mietendeckelrechner</div>
+            <iframe
+              src="https://mietendeckelrechner.berliner-mieterverein.de/md-jetzt"
+              id="mdr"
+              frameBorder="0"
+              height="400"
+              title="Mietendeckelrechner"
+              className="pt-4"
+            />
+          </div>
         </div>
       </div>
     </div>

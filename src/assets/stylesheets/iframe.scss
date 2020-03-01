@@ -1,8 +1,8 @@
 iframe {
   &.mietendeckelrechner {
     @include mq($until: tablet) {
-      width: 300px;
+      width: 500px;
     }
-    width: 400px;
+    width: 600px;
   }
 }

@@ -1,0 +1,17 @@
+.calculator {
+  &__wrapper {
+    border: 4px $c-4 solid;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  &__title {
+    background-color: $c-4;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: .75rem;
+  }
+}
