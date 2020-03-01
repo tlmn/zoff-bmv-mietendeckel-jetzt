@@ -3,7 +3,7 @@ import React from "react";
 const Page = () => (
   <>
     <div
-      className="container mx-auto d-block pt-5 pb-5"
+      className="container mx-auto d-block pt-5"
       id="wie-kann-ich-deckeln"
     >
       <div className="row text-center">
@@ -19,7 +19,7 @@ const Page = () => (
             frameBorder="0"
             height="400"
             title="Mietendeckelrechner"
-            className="mietendeckelrechner"
+            className="mietendeckelrechner pt-4"
           />
           <script type="text/javascript" src="/js/iframe.js" />
         </div>
