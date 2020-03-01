@@ -1,5 +1,5 @@
 (function() {
-    var MIETENDECKELRECHNER_ORIGIN = 'https://mietendeckelrechner.berliner-mieterverein.de';
+    var MIETENDECKELRECHNER_ORIGIN = 'https://mietendeckelrechner.berliner-mieterverein.de/md-jetzt';
     var IFRAME_ID = 'mdr';
 
     var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
