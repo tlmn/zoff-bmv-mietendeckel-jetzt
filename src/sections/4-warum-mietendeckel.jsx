@@ -26,7 +26,7 @@ const Page = () => (
         </div>
         <div className="row">
           <div className="col-12 col-lg-4">
-            <h3 className="circle circle--white">Mietenstopp</h3>
+            <h3 className="circle circle--yellow">Mietenstopp</h3>
             <p className="font-weight-bold mt-2">seit 23. Februar 2020</p>
             <p>
               Ob Staffelmiete oder einfache Erhöhung: Mieterhöhungen machen
