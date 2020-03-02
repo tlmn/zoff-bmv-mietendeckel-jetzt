@@ -13,7 +13,7 @@
 
         if (data) {
           if (data.height) {
-            iframe.height = data.height + 100;
+            iframe.height = data.height;
           }
 
           if (data.width) {
