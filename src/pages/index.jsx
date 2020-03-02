@@ -59,7 +59,7 @@ const IndexPage = () => {
           },
           {
             src: 'header-mehr-fuer-uns.jpg',
-            text: 'Mehr Geld für uns',
+            text: 'Reicht die Kohle',
           }
         ]}
       />
