@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" viewBox="0 0 1440 829">
+<metadata>
+<vectornator:setting key="DynamicGuides" value="1"/>
+<vectornator:setting key="Units" value="Points"/>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="SnapToGuides" value="1"/>
+<vectornator:setting key="GridSpacing" value="36"/>
+</metadata>
+<defs/>
+<g id="Untitled" vectornator:layerName="Untitled">
+<path d="M486+390C486+359.072+511.072+334+542+334C572.928+334+598+359.072+598+390C598+420.928+572.928+446+542+446C511.072+446+486+420.928+486+390Z" fill-opacity="0.9" fill="#ea5925" opacity="1"/>
+<path d="M93+230C93+199.072+118.072+174+149+174C179.928+174+205+199.072+205+230C205+260.928+179.928+286+149+286C118.072+286+93+260.928+93+230Z" fill-opacity="0.9" fill="#ea5925" opacity="1"/>
+<path d="M1277+56C1277+25.0721+1302.07+0+1333+0C1363.93+0+1389+25.0721+1389+56C1389+86.9279+1363.93+112+1333+112C1302.07+112+1277+86.9279+1277+56Z" fill-opacity="0.9" fill="#ea5925" opacity="1"/>
+<path d="M551+158C551+127.072+576.072+102+607+102C637.928+102+663+127.072+663+158C663+188.928+637.928+214+607+214C576.072+214+551+188.928+551+158Z" fill-opacity="0.7" fill="#006fd8" opacity="1"/>
+<path d="M1217+102C1217+71.0721+1242.07+46+1273+46C1303.93+46+1329+71.0721+1329+102C1329+132.928+1303.93+158+1273+158C1242.07+158+1217+132.928+1217+102Z" fill-opacity="0.9" fill="#006fd8" opacity="1"/>
+<path d="M421+429.592C421+399.674+446.072+375.421+477+375.421C507.928+375.421+533+399.674+533+429.592C533+459.51+507.928+483.763+477+483.763C446.072+483.763+421+459.51+421+429.592Z" fill-opacity="0.9" fill="#ffe200" opacity="1"/>
+<path d="M1135+486.337C1135+456.419+1160.07+432.166+1191+432.166C1221.93+432.166+1247+456.419+1247+486.337C1247+516.255+1221.93+540.508+1191+540.508C1160.07+540.508+1135+516.255+1135+486.337Z" fill-opacity="0.7" fill="#ffe200" opacity="1"/>
+</g>
+</svg>

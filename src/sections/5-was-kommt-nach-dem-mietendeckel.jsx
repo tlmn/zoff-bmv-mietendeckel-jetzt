@@ -26,7 +26,7 @@ const Page = () => (
       </div>
       <div className="row">
         <div className="col-12 col-lg-4">
-          <h3>Umwandlungsverbot in angespannten Wohnungsmärkten</h3>
+          <h3 className="circle circle--yellow">Umwandlungsverbot in angespannten Wohnungsmärkten</h3>
           <p>
             Esse fugiat aliqua exercitation id veniam sit. Sint duis et
             cupidatat consequat tempor nulla. Minim dolor ullamco tempor enim
@@ -38,7 +38,7 @@ const Page = () => (
           </p>
         </div>
         <div className="col-12 col-lg-4">
-          <h3>Gemeinwohlorientierter Neubau</h3>
+          <h3 className="circle circle--white">Gemeinwohlorientierter Neubau</h3>
           <p>
             Occaecat minim ex quis adipisicing consectetur deserunt aliqua ipsum
             deserunt. Qui sunt veniam ex veniam. Veniam pariatur tempor dolor ad
@@ -48,7 +48,7 @@ const Page = () => (
           </p>
         </div>
         <div className="col-12 col-lg-4">
-          <h3>Sozialverträgliche energetische Modernisierung</h3>
+          <h3 className="circle circle--blue">Sozialverträgliche energetische Modernisierung</h3>
           <p>
             Dolore eiusmod voluptate eiusmod aute ea. Labore pariatur ad velit
             magna exercitation tempor officia ea. Ea aliquip veniam voluptate
