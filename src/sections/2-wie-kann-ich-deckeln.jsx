@@ -22,9 +22,8 @@ const Page = () => (
               src="https://mietendeckelrechner.berliner-mieterverein.de/md-jetzt"
               id="mdr"
               frameBorder="0"
-              height="400"
+              height="300"
               title="Mietendeckelrechner"
-              className="p-4"
             />
           </div>
         </div>
