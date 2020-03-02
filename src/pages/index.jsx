@@ -10,6 +10,7 @@ import WieKannIchDeckeln from '../sections/2-wie-kann-ich-deckeln';
 import FragenZumMietendeckel from '../sections/3-fragen-zum-mietendeckel';
 import WarumMietendeckel from '../sections/4-warum-mietendeckel';
 import WasKommtNachDemMietendeckel from '../sections/5-was-kommt-nach-dem-mietendeckel';
+import Materialien from '../sections/6-materialien';
 
 import '../assets/stylesheets/application.scss';
 
@@ -69,6 +70,7 @@ const IndexPage = () => {
       <FragenZumMietendeckel />
       <WarumMietendeckel />
       <WasKommtNachDemMietendeckel />
+      <Materialien />
       <Footer />
     </>
   );

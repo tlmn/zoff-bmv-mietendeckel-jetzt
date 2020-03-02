@@ -6,7 +6,7 @@ const Page = () => (
       <div className="container mx-auto d-block">
         <div className="row">
           <div className="col-12 text-center">
-            <h2 className="circle circle--md circle--red">
+            <h2 className="circle circle--md circle--flamingo">
               Was ist der Mietendeckel?
             </h2>
           </div>
@@ -38,7 +38,7 @@ const Page = () => (
             </p>
           </div>
           <div className="col-12 col-lg-4">
-            <h3 className="circle circle--red">Wiedervermietung</h3>
+            <h3 className="circle circle--flamingo">Wiedervermietung</h3>
             <p className="font-weight-bold mt-2">seit 23. Februar 2020</p>
             <p>
               Bei Mieterwechsel drehen Vermieter*innen oftmals an der
