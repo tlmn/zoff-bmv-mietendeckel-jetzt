@@ -15,7 +15,7 @@ const Hero = ({ images }) => {
         />
         <div
           style={{ paddingTop: "55%", marginTop: "-55%" }}
-          className="svg-overlay--alt-werden"
+          className="svg-overlay svg-overlay--alt-werden"
         />
       </div>
       <div className="circleTop circle circle--yellow">
