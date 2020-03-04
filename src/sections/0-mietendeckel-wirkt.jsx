@@ -37,7 +37,7 @@ const Page = () => (
       <div className="row">
         <Player
           classNames="col-12 offset-0 col-sm-10 offset-sm-1"
-          videoURL="https://www.youtube.com/watch?v=FScfGU7rQaM"
+          videoURL="https://www.youtube.com/watch?v=tJMs281m4jM"
         />
       </div>
     </div>
