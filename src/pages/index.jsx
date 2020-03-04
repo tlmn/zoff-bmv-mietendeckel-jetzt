@@ -25,15 +25,9 @@ const IndexPage = () => {
   };
 
   function gaOptout() {
-    if (typeof window !== "undefined" && typeof document !== "undefined") {
-      (document.cookie =
-        disableStr + "=true; expires=Thu, 31 Dec 2099 23:59:59 UTC;path=/"),
-        (window[disableStr] = !0);
+    if (typeof window !== "undefined") {
+      window["ga-disable-UA-159671521-1"] = true;
     }
-    var gaProperty = "UA-159671521-1",
-      disableStr = "ga-disable-" + gaProperty;
-    document.cookie.indexOf(disableStr + "=true") > -1 &&
-      (window[disableStr] = !0);
   }
 
   return (
@@ -88,13 +82,17 @@ const IndexPage = () => {
       <CookieConsent
         location="bottom"
         buttonText="Akzeptieren"
-        style={{ background: "#ffe200", opacity: "0.9" }}
-        buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
-        expires={1}
+        enableDeclineButton={true}
+        declineButtonText="Deaktivieren"
+        onDecline={() => gaOptout()}
+        style={{ background: "#ffe200", opacity: "0.9", alignItems: "center" }}
+        contentStyle={{ margin: "0.4rem" }}
+        buttonStyle={{ color: "#4e503b", fontSize: "1rem", margin: "0.4rem" }}
+        declineButtonStyle={{ fontSize: "1rem", margin: "0.4rem" }}
+        expires={0}
       >
         Diese Seite verwendet Cookies von Google Analytics. Wenn du dies nicht
         wünschst, kannst du Google Analytics für diese Seite deaktivieren.
-        <button onClick={() => gaOptout()}>deaktivieren</button>
       </CookieConsent>
     </>
   );
