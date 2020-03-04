@@ -25,14 +25,11 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-gtag`,
       options: {
         trackingId: "UA-159671521-1",
         head: false,
-        anonymize: true,
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        cookieDomain: "mietendeckel.jetzt"
+        anonymize: true
       }
     }
   ]
