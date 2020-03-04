@@ -14,6 +14,7 @@ import WasKommtNachDemMietendeckel from "../sections/5-was-kommt-nach-dem-mieten
 import Materialien from "../sections/6-materialien";
 
 import "../assets/stylesheets/application.scss";
+import { Link } from "gatsby";
 
 const IndexPage = () => {
   const links = {
@@ -91,8 +92,9 @@ const IndexPage = () => {
         declineButtonStyle={{ fontSize: "1rem", margin: "0.4rem" }}
         expires={0}
       >
-        Diese Seite verwendet Cookies von Google Analytics. Wenn du dies nicht
-        wünschst, kannst du Google Analytics für diese Seite deaktivieren.
+        Diese Seite verwendet Google Analytics. Wenn du dies nicht wünschst,
+        kannst du Google Analytics für diese Seite deaktivieren.{" "}
+        <Link to="/datenschutz">Mehr zu unserem Datenschutz</Link>
       </CookieConsent>
     </>
   );
