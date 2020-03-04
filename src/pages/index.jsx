@@ -24,15 +24,17 @@ const IndexPage = () => {
     impressum: "/impressum"
   };
 
-  /* function gaOptout() {
-    (document.cookie =
-      disableStr + "=true; expires=Thu, 31 Dec 2099 23:59:59 UTC;path=/"),
+  function gaOptout() {
+    if (typeof window !== "undefined" && typeof document !== "undefined") {
+      (document.cookie =
+        disableStr + "=true; expires=Thu, 31 Dec 2099 23:59:59 UTC;path=/"),
+        (window[disableStr] = !0);
+    }
+    var gaProperty = "UA-159671521-1",
+      disableStr = "ga-disable-" + gaProperty;
+    document.cookie.indexOf(disableStr + "=true") > -1 &&
       (window[disableStr] = !0);
   }
-  var gaProperty = "UA-159671521-1",
-    disableStr = "ga-disable-" + gaProperty;
-  document.cookie.indexOf(disableStr + "=true") > -1 &&
-    (window[disableStr] = !0); */
 
   return (
     <>
@@ -92,7 +94,7 @@ const IndexPage = () => {
       >
         Diese Seite verwendet Cookies von Google Analytics. Wenn du dies nicht
         wünschst, kannst du Google Analytics für diese Seite deaktivieren.
-        <button>deaktivieren</button>
+        <button onClick={() => gaOptout()}>deaktivieren</button>
       </CookieConsent>
     </>
   );
