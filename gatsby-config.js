@@ -23,6 +23,17 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/web-icon.png`
       }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-159671521-1",
+        head: false,
+        anonymize: true,
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: "mietendeckel.jetzt"
+      }
     }
   ]
 };
