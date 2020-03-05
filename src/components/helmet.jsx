@@ -9,14 +9,14 @@ const Helmet = () => (
     <meta name="title" content="Mietendeckel jetzt" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <meta property="og:title" content="" />
-    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="Mietendeckel, jetzt! Checke ob und wie du deckelst." />
+    <meta property="og:site_name" content="Mietendeckel jetzt!" />
     <meta property="og:url" content="https://www.mietendeckelrechner.de" />
     <meta property="og:description" content="" />
     <meta property="og:type" content="website" />
     <meta
       property="og:image"
-      content="https://www.mietendeckel.jetzt/images/mietendeckel-jetzt.jpg"
+      content="https://www.mietendeckel.jetzt/images/og-mietendeckel-jetzt.jpg"
     />
   </ReactHelmet>
 );
