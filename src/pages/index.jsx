@@ -10,7 +10,7 @@ import WasIstMietendeckel from "../sections/1-was-ist-mietendeckel";
 import WieKannIchDeckeln from "../sections/2-wie-kann-ich-deckeln";
 import FragenZumMietendeckel from "../sections/3-fragen-zum-mietendeckel";
 import WarumMietendeckel from "../sections/4-warum-mietendeckel";
-import WasKommtNachDemMietendeckel from "../sections/5-was-kommt-nach-dem-mietendeckel";
+import WasKommtNachDemMietendeckel from "../sections/5-mietendeckel-und-weiter";
 import Materialien from "../sections/6-materialien";
 
 import "../assets/stylesheets/application.scss";
@@ -18,8 +18,8 @@ import { Link } from "gatsby";
 
 const IndexPage = () => {
   const links = {
-    twitter: "https://twitter.com/",
-    facebook: "https://www.facebook.com/",
+    twitter: "https://twitter.com/bmieterverein",
+    facebook: "https://de-de.facebook.com/BerlinerMieterverein/",
     bmv: "https://www.berliner-mieterverein.de/",
     datenschutz: "/datenschutz",
     impressum: "/impressum"
@@ -40,12 +40,12 @@ const IndexPage = () => {
         items={[
           {
             label: "Was ist der Mietendeckel?",
-            href: "#was-kann-mietendeckel"
+            href: "#was-ist-der-mietendeckel"
           },
           { label: "Wie kann ich deckeln?", href: "#wie-kann-ich-deckeln" },
           { label: "FAQ Mietendeckel", href: "#faq" },
           { label: "Warum Mietendeckel?", href: "#warum-mietendeckel" },
-          { label: "Nach dem Mietendeckel", href: "#nach-dem-mietendeckel" }
+          { label: "Mietendeckel und weiter", href: "#mietendeckel-und-weiter" }
         ]}
       />
       <Hero
@@ -94,7 +94,7 @@ const IndexPage = () => {
       >
         Diese Seite verwendet Google Analytics. Wenn du dies nicht wünschst,
         kannst du Google Analytics für diese Seite deaktivieren.{" "}
-        <Link to="/datenschutz">Mehr zu unserem Datenschutz</Link>
+        <Link to="/datenschutz">Unsere Datenschutzerklärung</Link>
       </CookieConsent>
     </>
   );

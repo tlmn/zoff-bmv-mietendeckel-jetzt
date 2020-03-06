@@ -2,7 +2,7 @@ import React from 'react';
 
 const Page = () => (
   <>
-    <div className="bg--yellow pt-5 pb-5" id="was-kann-mietendeckel">
+    <div className="bg--yellow pt-5 pb-5" id="was-ist-der-mietendeckel">
       <div className="container mx-auto d-block">
         <div className="row">
           <div className="col-12 text-center">

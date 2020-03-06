@@ -4,7 +4,7 @@ const Page = () => (
   <div className="bg--flamingo">
     <div
       className="container mx-auto d-block pt-5 pb-5"
-      id="nach-dem-mietendeckel"
+      id="mietendeckel-und-weiter"
     >
       <div className="row">
         <div className="col-lg-8 offset-lg-2 offset-0 col-12 text-center">
