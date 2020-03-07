@@ -31,6 +31,12 @@ module.exports = {
         head: false,
         anonymize: true
       }
+    },
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: 'pixel id here',
+      },
     }
   ]
 };
