@@ -92,9 +92,10 @@ const IndexPage = () => {
         declineButtonStyle={{ fontSize: "1rem", margin: "0.4rem" }}
         expires={0}
       >
-        Diese Seite verwendet Google Analytics. Wenn du dies nicht wünschst,
-        kannst du Google Analytics für diese Seite deaktivieren.{" "}
-        <Link to="/datenschutz">Unsere Datenschutzerklärung</Link>
+        Wir verwenden Cookies, um das Nutzungsverhalten mittels Google Analytics
+        und Facebook Pixel anonymisiert auszuwerten. Du akzeptierst unsere
+        Cookies, wenn Du fortfährst diese Website zu nutzen.{" "}
+        <Link to="/datenschutz">Erfahre mehr</Link>
       </CookieConsent>
     </>
   );
