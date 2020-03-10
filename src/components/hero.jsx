@@ -14,8 +14,6 @@ const Hero = ({ images }) => {
           className="hero__overlay"
         />
         <div
-          id="background-wrap svg-overlay"
-          style={{ paddingTop: "55%", marginTop: "-55%" }}
         >
           <div className="bubble bubble--1"></div>
           <div className="bubble bubble--2"></div>
