@@ -3,11 +3,11 @@ import Accordion from "../components/accordion";
 
 const Page = () => (
   <>
-    <div className="bg--flamingo pt-5 pb-5" id="faq">
+    <div className="section bg--flamingo" id="faq">
       <div className="container mx-auto d-block">
         <div className="row">
           <div className="col-12 text-left text-md-center">
-            <h2 className="circle circle--white">Fragen zum Mietendeckel</h2>
+            <h2>Fragen zum Mietendeckel</h2>
           </div>
           <div className="col-12">
             <Accordion

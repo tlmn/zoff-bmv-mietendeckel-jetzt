@@ -2,18 +2,18 @@ import React from "react";
 
 const Page = () => (
   <>
-    <div className="pt-5 pb-5" id="warum-mietendeckel">
+    <div className="section" id="warum-mietendeckel">
       <div className="container mx-auto d-block">
         <div className="row">
           <div className="col-12 text-left text-md-center">
-            <h2 className="circle circle--md circle--flamingo">
+            <h2>
               Warum braucht Berlin einen Mietendeckel?
             </h2>
           </div>
         </div>
         <div className="row">
           <div className="col-lg-8 offset-lg-2">
-            <p className="teaser pb-5 pt-3">
+            <p className="teaser mb-5 pb-5 pt-3">
               Berlin hat eine Wohnungskrise! Mieten und Immobilienpreise sind in
               den vergangenen Jahren rasant gestiegen. Die Spekulation mit
               Immobilien und Grundstücken in unserer Stadt blüht. Die
@@ -29,12 +29,12 @@ const Page = () => (
             </p>
           </div>
         </div>
-        <div className="row">
+        <div className="row contentItems">
           <div className="col-12 col-lg-4">
             <h3 className="circle circle--yellow">
               Hohe Mieten bei neuen Mietverträgen
             </h3>
-            <p>
+            <p className="text--small-running">
               Der Wohnungswechsel ist zu einem Glücksspiel geworden. Klar, durch
               einen Mietendeckel entstehen nicht mehr Wohnungen. Aber 11 bis 12
               Euro pro Quadratmeter nettokalt im Schnitt ist für viele nur unter
@@ -49,7 +49,7 @@ const Page = () => (
             <h3 className="circle circle--flamingo">
               Mieterhöhungen bedrohen das Mietverhältnis
             </h3>
-            <p>
+            <p className="text--small-running">
               Schon eine Studie des Mietervereins aus dem Jahr 2017 machte
               deutlich: Auch in bestehenden Mietverhältnissen steigt durch
               Mieterhöhungen das Armutsrisiko. Rund 70 Euro monatlich betrug der
@@ -64,7 +64,7 @@ const Page = () => (
             <h3 className="circle circle--blue">
               Modernisierung führt oft zur Verdrängung
             </h3>
-            <p>
+            <p className="text--small-running">
               Modernisierungsmaßnahmen vor allem zwecks Energieeinsparung aber
               auch durch Aufzug- oder Balkonanbau führen zu starken
               Mieterhöhungen – teilweise mehr als einer Verdoppelung der Miete.

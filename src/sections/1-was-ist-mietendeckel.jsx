@@ -2,18 +2,18 @@ import React from "react";
 
 const Page = () => (
   <>
-    <div className="bg--yellow pt-5 pb-5" id="was-ist-der-mietendeckel">
+    <div className="bg--yellow section" id="was-ist-der-mietendeckel">
       <div className="container mx-auto d-block">
-        <div className="row">
+        <div className="row mb-3">
           <div className="col-12 text-left text-md-center">
-            <h2 className="circle circle--md circle--flamingo">
+            <h2>
               Was ist der Mietendeckel?
             </h2>
           </div>
         </div>
         <div className="row">
           <div className="col-lg-8 offset-lg-2">
-            <p className="teaser pb-5 pt-3">
+            <p className="teaser mb-5 pb-5 pt-3">
               Der Mietendeckel soll die Explosion der Mieten in Berlin stoppen.
               Mit drei Maßnahmen soll das gelingen:{" "}
               <strong>
@@ -26,10 +26,10 @@ const Page = () => (
             </p>
           </div>
         </div>
-        <div className="row">
+        <div className="row contentItems">
           <div className="col-12 col-lg-4">
             <h3 className="circle circle--white">Mietenstopp</h3>
-            <p>
+            <p className="text--small-running">
               <span className="font-weight-bold mr-2">Seit 23. Februar 2020</span>
               Ob Staffel-, Indexmiete oder einfache Erhöhung: Mieterhöhungen
               machen Wohnen immer teurer. Bis 2025 werden in Berlin die Mieten
@@ -42,7 +42,7 @@ const Page = () => (
           </div>
           <div className="col-12 col-lg-4">
             <h3 className="circle circle--flamingo">Wiedervermietung</h3>
-            <p>
+            <p className="text--small-running">
               <span className="font-weight-bold mr-2">Seit 23. Februar 2020</span>
               Bei Mieterwechsel drehen Vermieter*innen oftmals an
               der Preisschraube. So steigen Mietpreise von Mieter*in zu
@@ -56,7 +56,7 @@ const Page = () => (
           </div>
           <div className="col-12 col-lg-4">
             <h3 className="circle circle--blue">Mietabsenkung</h3>
-            <p>
+            <p className="text--small-running">
               <span className="font-weight-bold mr-2">Ab 23. November 2020</span>
               Wer in den letzten Jahren das Glück hatte eine Wohnung zu finden,
               muss das häufig teuer bezahlen. Die gute Nachricht dank

@@ -8,7 +8,7 @@ const Page = () => (
       id="mietendeckel-wirkt"
     >
       <div className="row">
-        <div className="col text-left text-md-center">
+        <div className="col text-left text-md-center mt-5">
           <h2>Mietendeckel wirkt!</h2>
         </div>
       </div>

@@ -75,7 +75,10 @@ const NavBar = ({ items, links }) => {
             </span>
           </button>
         </div>
-        <div style={{ display: showMenu === true ? "block" : "none" }} className="menu__wrapper">
+        <div
+          style={{ display: showMenu === true ? "block" : "none" }}
+          className="menu__wrapper"
+        >
           <Scrollspy
             items={hrefs}
             currentClassName="is-current"
@@ -84,24 +87,26 @@ const NavBar = ({ items, links }) => {
           >
             {items.map(item => (
               <li>
-                <AnchorLink offset={offset} href={item.href}>
+                <AnchorLink
+                  offset={offset}
+                  href={item.href}
+                  onClick={() => {
+                    setShowMenu(showMenu === true ? false : true);
+                  }}
+                >
                   {item.label}
                 </AnchorLink>
               </li>
             ))}
-          </Scrollspy>
-          <ul className="navbar__socialmedia d-flex d-md-none">
             <li>
-              <a href={links.facebook}>
-                <LogoFacebook width="30" isYellow />
+              <a href={links.facebook} className="mr-4">
+                <LogoFacebook width="40" isYellow />
               </a>
-            </li>
-            <li>
               <a href={links.twitter}>
-                <LogoTwitter width="30" isYellow />
+                <LogoTwitter width="40" isYellow />
               </a>
             </li>
-          </ul>
+          </Scrollspy>
         </div>
       </div>
       <div style={{ height: `${menuHeight}px` }} />

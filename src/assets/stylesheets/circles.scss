@@ -8,7 +8,7 @@ div {
     text-align: center;
     font-size: 2em;
     margin: 0 auto;
-    margin-top: calc(#{$circle-width--wide} / -2);
+    margin-top: calc(#{$circle-width--wide} / -1.6);
     @include mq($until: tablet) {
       margin-top: calc(#{$circle-width--mobile} / -5);
       height: calc(#{$circle-width--mobile} / 1.25);
@@ -56,13 +56,13 @@ h2 {
 h3 {
   &.circle {
     &::before {
-      height: 3rem;
-      width: 3rem;
-      left: -1rem;
+      height: 6.5rem;
+      width: 6.5rem;
+      left: -1.7rem;
+      top: -2.3rem;
       @include mq($until: tablet) {
         left: -0.5rem;
       }
-      top: -0.6rem;
     }
   }
 }

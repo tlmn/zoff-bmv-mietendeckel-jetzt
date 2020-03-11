@@ -1,19 +1,19 @@
 import React from "react";
 
 const Page = () => (
-  <div className="bg--flamingo">
+  <div className="section bg--flamingo">
     <div
-      className="container mx-auto d-block pt-5 pb-5"
+      className="container mx-auto d-block"
       id="mietendeckel-und-weiter"
     >
       <div className="row">
         <div className="col-lg-8 offset-lg-2 offset-0 col-12 text-left text-md-center">
-          <h2 className="circle circle--yellow">
+          <h2 className="circle circle--flamingo">
             Was kommt nach dem Mietendeckel?
           </h2>
         </div>
         <div className="col-lg-8 offset-lg-2 offset-0 col-12">
-          <p className="teaser pb-5 pt-3">
+          <p className="teaser mb-5 pb-5 pt-3">
             Der Berliner Mietendeckel ist zunächst bis 2025 begrenzt. In dieser
             Verschnaufpause für die Mieter*innen ist es an der Politik, weitere
             und nachhaltige Lösungen für die Wohnungskrise zu finden. Wohnraum
@@ -25,12 +25,12 @@ const Page = () => (
           </p>
         </div>
       </div>
-      <div className="row">
+      <div className="row contentItems">
         <div className="col-12 col-lg-4">
-          <h3 className="circle circle--yellow">
+          <h3>
             Berlin braucht ein Umwandlungsverbot
           </h3>
-          <p>
+          <p className="text--small-running">
             Von 2010 bis 2018 sind in Berlin fast 100.000 Mietwohnungen in
             Eigentumswohnungen umgewandelt worden. Dadurch entstand massiver
             Verdrängungsdruck, denn leere Wohnungen lassen sich deutlich teurer
@@ -46,10 +46,10 @@ const Page = () => (
           </p>
         </div>
         <div className="col-12 col-lg-4">
-          <h3 className="circle circle--white">
+          <h3>
             Gemeinwohlorientierter und bedarfsgerechter Wohnungsneubau
           </h3>
-          <p>
+          <p className="text--small-running">
             In den vergangenen 10 Jahren ist das Immobilienkapital privater
             Investoren vorwiegend in den Ankauf von Wohnungsbeständen geflossen.
             Neubauinvestments gingen vor allem in den Bau von luxuriösen Miet-
@@ -69,10 +69,10 @@ const Page = () => (
           </p>
         </div>
         <div className="col-12 col-lg-4">
-          <h3 className="circle circle--blue">
+          <h3>
             Sozialverträgliche energetische Modernisierung
           </h3>
-          <p>
+          <p className="text--small-running">
             Bundesregierung und Bundestag aber auch die Länder haben es
             versäumt, den Zielkonflikt zwischen notwendigen Klimaschutz- und
             Energiesparmaßnahmen in bestehenden Wohngebäuden und der
