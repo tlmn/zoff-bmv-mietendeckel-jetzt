@@ -7,7 +7,7 @@ const Page = () => (
         <div className="row">
           <div className="col-12 text-left text-md-center">
             <h2>
-              Warum braucht Berlin einen Mietendeckel?
+              Warum braucht Berlin einen Mie&shy;ten&shy;deckel?
             </h2>
           </div>
         </div>

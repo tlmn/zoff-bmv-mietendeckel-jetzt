@@ -2,14 +2,11 @@ import React from "react";
 
 const Page = () => (
   <div className="section bg--flamingo">
-    <div
-      className="container mx-auto d-block"
-      id="mietendeckel-und-weiter"
-    >
+    <div className="container mx-auto d-block" id="mietendeckel-und-weiter">
       <div className="row">
         <div className="col-lg-8 offset-lg-2 offset-0 col-12 text-left text-md-center">
           <h2 className="circle circle--flamingo">
-            Was kommt nach dem Mietendeckel?
+            Was kommt nach dem Mie&shy;ten&shy;deckel?
           </h2>
         </div>
         <div className="col-lg-8 offset-lg-2 offset-0 col-12">
@@ -27,9 +24,7 @@ const Page = () => (
       </div>
       <div className="row contentItems">
         <div className="col-12 col-lg-4">
-          <h3>
-            Berlin braucht ein Umwandlungsverbot
-          </h3>
+          <h3>Berlin braucht ein Um&shy;wandlungs&shy;ver&shy;bot</h3>
           <p className="text--small-running">
             Von 2010 bis 2018 sind in Berlin fast 100.000 Mietwohnungen in
             Eigentumswohnungen umgewandelt worden. Dadurch entstand massiver
@@ -47,7 +42,8 @@ const Page = () => (
         </div>
         <div className="col-12 col-lg-4">
           <h3>
-            Gemeinwohlorientierter und bedarfsgerechter Wohnungsneubau
+            Ge&shy;mein&shy;wohl&shy;orientier&shy;ter und
+            be&shy;darfs&shy;ge&shy;recht&shy;er Woh&shy;nungs&shy;neu&shy;bau
           </h3>
           <p className="text--small-running">
             In den vergangenen 10 Jahren ist das Immobilienkapital privater
@@ -70,7 +66,8 @@ const Page = () => (
         </div>
         <div className="col-12 col-lg-4">
           <h3>
-            Sozialverträgliche energetische Modernisierung
+            Sozial&shy;ver&shy;träg&shy;liche ener&shy;ge&shy;tische
+            Mo&shy;der&shy;ni&shy;sier&shy;ung
           </h3>
           <p className="text--small-running">
             Bundesregierung und Bundestag aber auch die Länder haben es

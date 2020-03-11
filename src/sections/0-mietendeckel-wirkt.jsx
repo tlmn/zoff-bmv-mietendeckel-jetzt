@@ -12,7 +12,7 @@ const Page = () => (
           <h2>Mietendeckel wirkt!</h2>
         </div>
       </div>
-      <div className="row">
+      <div className="row mt-4">
         <div className="col-lg-8 offset-lg-2">
           <p className="teaser">
             Seit Jahren ächzt Berlin unter steigenden Mieten, Spekulation und

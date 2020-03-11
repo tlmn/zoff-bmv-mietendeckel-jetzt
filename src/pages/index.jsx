@@ -53,27 +53,33 @@ const IndexPage = () => {
           {
             src: "header-keine-angst-vor-mieterhoehungen.jpg",
             srcMobile: "header-mobile-keine-angst-vor-mieterhoehungen.jpg",
-            text: "Keine Angst vor Mieterhöhungen"
+            text: "Keine Angst vor Mieterhöhung",
+            className: "claim--keine-angst-vor-mieterhohung"
           },
           {
             src: "header-alt-werden-im-eigenen-kiez.jpg",
             srcMobile: "header-mobile-alt-werden-im-eigenen-kiez.jpg",
-            text: "Alt werden im eigenen Kiez"
+            text: "Alt werden in meinem Kiez",
+            className: "claim--alt-werden-im-eigenen-kiez"
           },
           {
             src: "header-platz-fuer-freunde.jpg",
             srcMobile: "header-mobile-platz-fuer-freunde.jpg",
-            text: "Platz für Freunde"
+            text: "Platz für Freunde",
+            className: "claim--platz-fur-freunde"
           },
           {
             src: "header-alleine-wohnen.jpg",
             srcMobile: "header-mobile-alleine-wohnen.jpg",
-            text: "Alleine wohnen"
+            text: "Alleine wohnen",
+            className: "claim--alleine-wohnen",
+
           },
           {
             src: "header-mehr-fuer-uns.jpg",
             srcMobile: "header-mobile-mehr-fuer-uns.jpg",
-            text: "Reicht die Kohle"
+            text: "Reicht die Kohle",
+            className: "claim--reicht-die-kohle"
           }
         ]}
       />

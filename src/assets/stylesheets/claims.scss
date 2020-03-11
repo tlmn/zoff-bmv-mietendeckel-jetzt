@@ -1,0 +1,45 @@
+.claim {
+  &__wrapper {
+    position: relative;
+    text-align: center;
+    @include mq($until: tablet) {
+      margin-top: calc(-75vw / 1.8);
+    }
+    @include mq($from: tablet, $until: desktop) {
+      margin-top: calc(-35vw / 1.8);
+    }
+    @include mq($from: desktop, $until: wide) {
+      margin-top: calc(-35vw / 1.8);
+    }
+    @include mq($from: wide) {
+      margin-top: calc(-32vw / 1.8);
+    }
+  }
+  &--svg {
+    @include mq($until: tablet) {
+      width: 75vw;
+    }
+    @include mq($from: tablet, $until: desktop) {
+      width: 35vw;
+    }
+    @include mq($from: desktop, $until: wide) {
+      width: 35vw;
+    }
+    @include mq($from: wide) {
+      width: 32vw;
+    }
+  }
+  &--keine-angst-vor-mieterhohung {
+    @include mq($from: tablet) {
+      font-size: 2rem;
+    }
+  }
+  &--alt-werden-im-eigenen-kiez {
+  }
+  &--platz-fur-freunde {
+  }
+  &--alleine-wohnen {
+  }
+  &--reicht-die-kohle {
+  }
+}
