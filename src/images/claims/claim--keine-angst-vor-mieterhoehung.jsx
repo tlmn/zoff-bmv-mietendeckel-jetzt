@@ -1,7 +1,7 @@
 import React from "react";
 
 const KeineAngstVorMieterhoehung = ({ width }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 593.69 593.69" className="claim--svg">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 593.69 593.69" className="claim__svg">
     <defs>
       <clipPath id="clip-path" transform="translate(-9 -7)">
         <rect width="611.69" height="601.69" style={{ fill: "none" }} />

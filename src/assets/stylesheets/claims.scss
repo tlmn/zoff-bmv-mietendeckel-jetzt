@@ -15,7 +15,7 @@
       margin-top: calc(-32vw / 1.8);
     }
   }
-  &--svg {
+  &__svg {
     @include mq($until: tablet) {
       width: 75vw;
     }
@@ -28,18 +28,5 @@
     @include mq($from: wide) {
       width: 32vw;
     }
-  }
-  &--keine-angst-vor-mieterhohung {
-    @include mq($from: tablet) {
-      font-size: 2rem;
-    }
-  }
-  &--alt-werden-im-eigenen-kiez {
-  }
-  &--platz-fur-freunde {
-  }
-  &--alleine-wohnen {
-  }
-  &--reicht-die-kohle {
   }
 }

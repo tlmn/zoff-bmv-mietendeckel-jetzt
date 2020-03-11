@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import Image from "./image";
-import { Textfit } from "react-textfit";
-import ClaimKeineAngstVorMieterhoehung from "../images/claim--keine-angst-vor-mieterhoehung";
+import ClaimKeineAngstVorMieterhoehung from "../images/claims/claim--keine-angst-vor-mieterhoehung";
+import ClaimAltWerdenInMeinemKiez from "../images/claims/claim--alt-werden-in-meinem-kiez";
+import ClaimAlleineWohnen from "../images/claims/claim--alleine-wohnen";
+import ClaimReichtDieKohle from "../images/claims/claim--reicht-die-kohle";
+import ClaimMehrPlatzFuerFreunde from "../images/claims/claim--mehr-platz-fuer-freunde";
 
 const Hero = ({ images }) => {
-  //const number = Math.floor(Math.random() * images.length);
-  const number = 0;
+  const number = Math.floor(Math.random() * images.length);
   const [image] = useState(images[number]);
 
   return (
@@ -18,7 +20,11 @@ const Hero = ({ images }) => {
           className="hero__overlay"
         />
         <div className="claim__wrapper">
-          <ClaimKeineAngstVorMieterhoehung />
+          {number === 0 && <ClaimKeineAngstVorMieterhoehung />}
+          {number === 1 && <ClaimAltWerdenInMeinemKiez />}
+          {number === 2 && <ClaimMehrPlatzFuerFreunde />}
+          {number === 3 && <ClaimAlleineWohnen />}
+          {number === 4 && <ClaimReichtDieKohle />}
         </div>
         <div className="d-none d-md-block">
           <div className="bubble bubble--1"></div>
