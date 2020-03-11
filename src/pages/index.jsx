@@ -52,22 +52,27 @@ const IndexPage = () => {
         images={[
           {
             src: "header-keine-angst-vor-mieterhoehungen.jpg",
+            srcMobile: "header-mobile-keine-angst-vor-mieterhoehungen.jpg",
             text: "Keine Angst vor Mieterhöhungen"
           },
           {
             src: "header-alt-werden-im-eigenen-kiez.jpg",
+            srcMobile: "header-mobile-alt-werden-im-eigenen-kiez.jpg",
             text: "Alt werden im eigenen Kiez"
           },
           {
             src: "header-platz-fuer-freunde.jpg",
+            srcMobile: "header-mobile-platz-fuer-freunde.jpg",
             text: "Platz für Freunde"
           },
           {
             src: "header-alleine-wohnen.jpg",
+            srcMobile: "header-mobile-alleine-wohnen.jpg",
             text: "Alleine wohnen"
           },
           {
             src: "header-mehr-fuer-uns.jpg",
+            srcMobile: "header-mobile-mehr-fuer-uns.jpg",
             text: "Reicht die Kohle"
           }
         ]}

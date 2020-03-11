@@ -9,7 +9,8 @@ const Hero = ({ images }) => {
   return (
     <>
       <div>
-        <Image name={image.src} />
+        <Image name={image.src} className="d-none d-md-block" />
+        <Image name={image.srcMobile} className="d-block d-md-none" />
         <div
           style={{ paddingTop: "55%", marginTop: "-55%" }}
           className="hero__overlay"
