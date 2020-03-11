@@ -25,53 +25,57 @@ const NavBar = ({ items, links }) => {
 
   return (
     <>
-      <div className="navbar" ref={refMenu}>
-        <AnchorLink href="#top">
-          <LogoBMV width="40" />
-        </AnchorLink>
-        <Scrollspy
-          items={hrefs}
-          currentClassName="is-current"
-          className="navbar__menu d-none d-md-block"
-          offset={-menuHeight}
-        >
-          {items.map(item => (
+      <div className="navbar__wrapper">
+        <div className="navbar" ref={refMenu}>
+          <AnchorLink href="#top">
+            <LogoBMV width="40" />
+          </AnchorLink>
+          <Scrollspy
+            items={hrefs}
+            currentClassName="is-current"
+            className="navbar__menu d-none d-md-block"
+            offset={-menuHeight}
+          >
+            {items.map(item => (
+              <li>
+                <AnchorLink offset={offset} href={item.href}>
+                  {item.label}
+                </AnchorLink>
+              </li>
+            ))}
+          </Scrollspy>
+          <ul className="navbar__socialmedia d-none d-md-flex">
             <li>
-              <AnchorLink offset={offset} href={item.href}>
-                {item.label}
-              </AnchorLink>
+              <a href={links.facebook}>
+                <LogoFacebook width="30" />
+              </a>
             </li>
-          ))}
-        </Scrollspy>
-        <ul className="navbar__socialmedia d-none d-md-flex">
-          <li>
-            <a href={links.facebook}>
-              <LogoFacebook width="30" />
-            </a>
-          </li>
-          <li>
-            <a href={links.twitter}>
-              <LogoTwitter width="30" />
-            </a>
-          </li>
-        </ul>
-        <span className="d-block d-md-none font-weight-bold">
-          Mietendeckel, jetzt!
-        </span>
-        <button
-          className={`${showMenu === true ? "is-active" : ""} hamburger hamburger--squeeze d-flex d-md-none`}
-          type="button"
-          aria-label="Menu"
-          aria-controls="navigation"
-          onClick={() => {
-            setShowMenu(showMenu === true ? false : true);
-          }}
-        >
-          <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
+            <li>
+              <a href={links.twitter}>
+                <LogoTwitter width="30" />
+              </a>
+            </li>
+          </ul>
+          <span className="d-block d-md-none font-weight-bold">
+            Mietendeckel, jetzt!
           </span>
-        </button>
-        <div style={{ display: showMenu === true ? "block" : "none" }}>
+          <button
+            className={`${
+              showMenu === true ? "is-active" : ""
+            } hamburger hamburger--squeeze d-flex d-md-none`}
+            type="button"
+            aria-label="Menu"
+            aria-controls="navigation"
+            onClick={() => {
+              setShowMenu(showMenu === true ? false : true);
+            }}
+          >
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+        <div style={{ display: showMenu === true ? "block" : "none" }} className="menu__wrapper">
           <Scrollspy
             items={hrefs}
             currentClassName="is-current"

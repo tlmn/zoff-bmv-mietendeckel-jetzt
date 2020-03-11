@@ -4,7 +4,7 @@ import Image from "../components/image";
 const Page = () => (
   <div className="container mx-auto d-block pt-5 pb-5" id="materialien">
     <div className="row">
-      <div className="col-lg-8 offset-lg-2 offset-0 col-12 text-center mb-5">
+      <div className="col-lg-8 offset-lg-2 offset-0 col-12 text-left text-md-center mb-5">
         <h2 className="circle circle--flamingo">Materialien</h2>
       </div>
     </div>

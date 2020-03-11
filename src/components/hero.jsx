@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Image from "./image";
+import { Textfit } from "react-textfit";
 
 const Hero = ({ images }) => {
   const number = Math.floor(Math.random() * images.length);
@@ -13,8 +14,7 @@ const Hero = ({ images }) => {
           style={{ paddingTop: "55%", marginTop: "-55%" }}
           className="hero__overlay"
         />
-        <div
-        >
+        <div className="d-none d-md-block">
           <div className="bubble bubble--1"></div>
           <div className="bubble bubble--2"></div>
           <div className="bubble bubble--3"></div>
@@ -32,7 +32,7 @@ const Hero = ({ images }) => {
           <span>
             <i>Endlich!</i>
             <br />
-            {image.text}
+            <Textfit mode="multi">{image.text}</Textfit>
           </span>
         </h1>
       </div>

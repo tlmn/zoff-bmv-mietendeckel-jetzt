@@ -7,7 +7,7 @@ const IndexPage = () => (
     <div className="container mx-auto d-block pt-5 pb-5">
       <div className="row">
         <div className="col-12 offset-0 col-lg-8 offset-lg-2">
-          <h1 className="text-center">Impressum</h1>
+          <h1 className="text-left text-md-center">Impressum</h1>
           <div>
             <p>Angaben gemäß § 5 TMG:</p>
             <p>

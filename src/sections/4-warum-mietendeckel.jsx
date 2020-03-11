@@ -5,7 +5,7 @@ const Page = () => (
     <div className="pt-5 pb-5" id="warum-mietendeckel">
       <div className="container mx-auto d-block">
         <div className="row">
-          <div className="col-12 text-center">
+          <div className="col-12 text-left text-md-center">
             <h2 className="circle circle--md circle--flamingo">
               Warum braucht Berlin einen Mietendeckel?
             </h2>
@@ -14,54 +14,66 @@ const Page = () => (
         <div className="row">
           <div className="col-lg-8 offset-lg-2">
             <p className="teaser pb-5 pt-3">
-              Minim voluptate proident minim dolore. Proident amet officia
-              incididunt in eu minim tempor amet excepteur ex. Incididunt culpa
-              ex sunt tempor dolore officia officia Lorem laboris incididunt
-              consectetur. Do pariatur do esse minim laborum excepteur anim. Est
-              dolor duis exercitation ipsum cupidatat exercitation. Dolor
-              pariatur eiusmod aliqua duis ex quis elit proident.
+              Berlin hat eine Wohnungskrise! Mieten und Immobilienpreise sind in
+              den vergangenen Jahren rasant gestiegen. Die Spekulation mit
+              Immobilien und Grundstücken in unserer Stadt blüht. Die
+              Bundesregierung - für das zivile Mietrecht zuständig - hat dieser
+              Entwicklung weitgehend tatenlos zugesehen. Der Mietendeckel
+              verschafft Mieterinnen und Mietern sowie der Landespolitik eine
+              wichtige Chance, die wir JETZT alle nutzen müssen für eine
+              Verstärkung des gemeinwohlorientierten Wohnungsneubaus,
+              Bodenpreisregulierungen sowie für Maßnahmen gegen Umwandlungen von
+              Miet- in Eigentumswohnungen, Kündigungen, Zwangsräumungen und der
+              Verdrängung von sozialen Einrichtungen und Kleingewerbe. Deshalb
+              brauchen wir den Mietendeckel!
             </p>
           </div>
         </div>
         <div className="row">
           <div className="col-12 col-lg-4">
-            <h3 className="circle circle--yellow">Platzhalter</h3>
+            <h3 className="circle circle--yellow">
+              Hohe Mieten bei neuen Mietverträgen
+            </h3>
             <p>
-              Ex dolore nulla aliquip nostrud amet labore. Commodo qui aliqua
-              ipsum veniam voluptate aute. Magna laborum cupidatat dolor enim.
-              Ullamco nulla dolor labore amet cillum mollit laboris eu ad. Id
-              anim dolor non ullamco cupidatat ipsum velit. Ea consectetur
-              laboris ad reprehenderit est laborum cupidatat adipisicing veniam
-              veniam aliquip irure aliquip amet. Sint reprehenderit voluptate
-              excepteur nulla do sunt voluptate incididunt nulla et.
+              Der Wohnungswechsel ist zu einem Glücksspiel geworden. Klar, durch
+              einen Mietendeckel entstehen nicht mehr Wohnungen. Aber 11 bis 12
+              Euro pro Quadratmeter nettokalt im Schnitt ist für viele nur unter
+              großen Einschränkungen leistbar, für manche Menschen leider gar
+              nicht. Bis zu 10 Prozent sind die Mieten pro Jahr bei
+              Wiedervermietung angestiegen. Für eine Wohnung innerhalb des
+              S-Bahn-Ringes braucht es jetzt zumeist ein überdurchschnittliches
+              Einkommen. Eine „Stadt für alle“ stellen wir uns anders vor.
             </p>
           </div>
           <div className="col-12 col-lg-4">
-            <h3 className="circle circle--flamingo">Mieterhöhungen bei Modernisierung</h3>
+            <h3 className="circle circle--flamingo">
+              Mieterhöhungen bedrohen das Mietverhältnis
+            </h3>
             <p>
-              Amet qui proident ipsum culpa est nulla sit consectetur duis
-              tempor veniam. Ut veniam consectetur ullamco voluptate enim elit
-              voluptate. Quis consequat anim minim pariatur minim consequat anim
-              irure quis deserunt tempor proident tempor. Ipsum aliquip nisi
-              esse anim anim dolor incididunt laboris consectetur magna esse
-              labore aliquip. Culpa cupidatat enim pariatur tempor aliqua dolore
-              proident est id nulla culpa ea dolor. Eu et culpa cupidatat id
-              ullamco minim aliqua quis.Deserunt irure sit duis eu excepteur
-              sunt eiusmod nulla amet laborum minim excepteur officia
-              adipisicing. Minim nostrud adipisicing ad nisi velit aliquip sit
-              duis.
+              Schon eine Studie des Mietervereins aus dem Jahr 2017 machte
+              deutlich: Auch in bestehenden Mietverhältnissen steigt durch
+              Mieterhöhungen das Armutsrisiko. Rund 70 Euro monatlich betrug der
+              durchschnittliche Mieterhöhungsbetrag. Teure Modernisierungen und
+              die hohen Mieten bei neuen Verträgen ließen auch die
+              Mietspiegelwerte stark ansteigen. Zudem ignorierten zwei Drittel
+              aller Vermieter die mietrechtlichen Vorgaben, um höhere Mieten zu
+              erzielen.
             </p>
           </div>
           <div className="col-12 col-lg-4">
-            <h3 className="circle circle--blue">Hohe Mieten</h3>
+            <h3 className="circle circle--blue">
+              Modernisierung führt oft zur Verdrängung
+            </h3>
             <p>
-              Sint tempor consectetur voluptate labore quis nostrud ut proident
-              aliquip elit dolor velit fugiat pariatur. Nulla culpa exercitation
-              sint aliquip. Ea labore reprehenderit incididunt laborum.
-              Excepteur labore culpa eiusmod eu et nisi anim labore labore est
-              eu. Proident tempor cillum eu adipisicing occaecat pariatur
-              consectetur nostrud sit sunt labore officia. Anim non voluptate
-              proident laborum incididunt tempor enim non in.
+              Modernisierungsmaßnahmen vor allem zwecks Energieeinsparung aber
+              auch durch Aufzug- oder Balkonanbau führen zu starken
+              Mieterhöhungen – teilweise mehr als einer Verdoppelung der Miete.
+              Härtefallregelungen greifen zumeist nicht hinreichend. Vielfach
+              bleibt nur der Auszug. Die seit Januar 2019 geltende Neuregelung
+              lässt immer noch Mieterhöhungen bis zu 3 Euro pro Quadratmeter zu,
+              für eine 70 Quadratmeter große Wohnung also bis zu 210 Euro im
+              Monat. Solche Mieterhöhungen sind eine komplette Änderung des
+              Mietverhältnisses und dürfen nicht sein!
             </p>
           </div>
         </div>

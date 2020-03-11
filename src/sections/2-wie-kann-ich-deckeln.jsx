@@ -3,7 +3,7 @@ import React from "react";
 const Page = () => (
   <>
     <div className="container mx-auto d-block pt-5" id="wie-kann-ich-deckeln">
-      <div className="row text-center">
+      <div className="row text-left text-md-center">
         <div className="col-12">
           <h2 className="circle circle--blue">
             Wie wirkt der Mietendeckel für mich?

@@ -7,7 +7,7 @@ const Page = () => (
       id="mietendeckel-und-weiter"
     >
       <div className="row">
-        <div className="col-lg-8 offset-lg-2 offset-0 col-12 text-center">
+        <div className="col-lg-8 offset-lg-2 offset-0 col-12 text-left text-md-center">
           <h2 className="circle circle--yellow">
             Was kommt nach dem Mietendeckel?
           </h2>

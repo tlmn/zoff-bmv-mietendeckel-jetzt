@@ -30,6 +30,10 @@ h2 {
   font-weight: 700;
   display: initial;
   margin-bottom: 0;
+  hyphens: auto;
+  @include mq($until: tablet) {
+    text-align: left;
+  }
 }
 
 h3 {
