@@ -9,11 +9,11 @@ import {
 
 const AccordionComponent = ({ items }) => (
   <Accordion
-    className="col-12 col-md-10 offset-0 offset-md-1 mt-5"
+    className="col-12 col-md-10 offset-0 offset-md-1 mt-5 col-lg-8 offset-lg-2"
     allowZeroExpanded
   >
     {items.map((item, index) => (
-      <AccordionItem className="mt-0 mt-xs-5">
+      <AccordionItem>
         <AccordionItemHeading>
           <AccordionItemButton>
             <p

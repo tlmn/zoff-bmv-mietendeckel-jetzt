@@ -42,13 +42,13 @@ div {
 h2 {
   &.circle {
     &::before {
-      height: 5rem;
-      width: 5rem;
-      left: -1.5rem;
+      height: 7.5rem;
+      width: 7.5rem;
+      left: -2.25rem;
       @include mq($until: tablet) {
         left: -2rem;
       }
-      top: -1rem;
+      top: -2.25rem;
     }
   }
 }
@@ -97,7 +97,7 @@ h3 {
       background-color: $c-3;
     }
   }
-  &--blue {
+  &--congress-blue {
     &::before {
       background-color: $c-4;
     }

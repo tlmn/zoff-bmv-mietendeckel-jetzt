@@ -6,7 +6,7 @@ const Page = () => (
     <div className="section">
       <div className="row">
         <div className="col-lg-8 offset-lg-2 offset-0 col-12 text-left text-md-center mb-5">
-          <h2>Materialien</h2>
+          <h2 className="circle circle--congress-blue">Materialien zum Mietendeckel</h2>
         </div>
       </div>
       <div className="row pt-3">

@@ -4,14 +4,16 @@ const Page = () => (
   <>
     <div className="section" id="warum-mietendeckel">
       <div className="container mx-auto d-block">
-        <div className="row">
+        <div className="row mb-3">
           <div className="col-12 text-left text-md-center">
-            <h2>Warum braucht Berlin einen Mie&shy;ten&shy;deckel?</h2>
+            <h2 className="circle circle--congress-blue">
+              Warum braucht Berlin einen Mie&shy;ten&shy;deckel?
+            </h2>
           </div>
         </div>
         <div className="row">
           <div className="col-lg-8 offset-lg-2">
-            <p className="teaser mb-5 pb-5 pt-3">
+            <p className="teaser mb-5 pb-3 pt-5">
               Berlin hat eine Wohnungskrise! Mieten und Immobilienpreise sind in
               den vergangenen Jahren rasant gestiegen. Die Bundesregierung hat
               dieser Entwicklung weitgehend tatenlos zugesehen.
@@ -24,10 +26,10 @@ const Page = () => (
         </div>
         <div className="row contentItems">
           <div className="col-12 col-lg-4">
-            <h3 className="circle circle--yellow">
+            <h3>
               Hohe Mieten bei neuen Mietverträgen
             </h3>
-            <p className="text--small-running">
+            <p className="text--small-running--wo-circle">
               Der Wohnungswechsel ist zu einem Glücksspiel geworden. Klar, durch
               einen Mietendeckel entstehen nicht mehr Wohnungen. Aber 11 bis 12
               Euro pro Quadratmeter nettokalt im Schnitt sind für viele nur
@@ -39,10 +41,10 @@ const Page = () => (
             </p>
           </div>
           <div className="col-12 col-lg-4">
-            <h3 className="circle circle--flamingo">
+            <h3>
               Mieterhöhungen bedrohen das Mietverhältnis
             </h3>
-            <p className="text--small-running">
+            <p className="text--small-running--wo-circle">
               Schon 2017 machte eine Studie des Mietervereins deutlich: Auch in
               bestehenden Mietverhältnissen steigt durch Mieterhöhungen das
               Armutsrisiko. Rund 70 Euro monatlich betrug der durchschnittliche
@@ -53,10 +55,10 @@ const Page = () => (
             </p>
           </div>
           <div className="col-12 col-lg-4">
-            <h3 className="circle circle--blue">
+            <h3>
               Modernisierung führt oft zur Verdrängung
             </h3>
-            <p className="text--small-running">
+            <p className="text--small-running--wo-circle">
               Modernisierungsmaßnahmen vor allem zwecks Energieeinsparung aber
               auch durch Aufzug- oder Balkonanbau führen zu starken
               Mieterhöhungen – teilweise mehr als einer Verdoppelung der Miete.
