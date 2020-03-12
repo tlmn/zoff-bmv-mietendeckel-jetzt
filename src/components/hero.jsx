@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import Image from "./image";
+
 import ClaimKeineAngstVorMieterhoehung from "../images/claims/claim--keine-angst-vor-mieterhoehung";
 import ClaimAltWerdenInMeinemKiez from "../images/claims/claim--alt-werden-in-meinem-kiez";
 import ClaimAlleineWohnen from "../images/claims/claim--alleine-wohnen";
@@ -7,8 +8,7 @@ import ClaimReichtDieKohle from "../images/claims/claim--reicht-die-kohle";
 import ClaimMehrPlatzFuerFreunde from "../images/claims/claim--mehr-platz-fuer-freunde";
 
 const Hero = ({ images }) => {
-  const number = Math.floor(Math.random() * images.length);
-  const [image] = useState(images[number]);
+  const image = images[Math.floor(Math.random() * images.length)];
 
   return (
     <>
@@ -20,11 +20,11 @@ const Hero = ({ images }) => {
           className="hero__overlay"
         />
         <div className="claim__wrapper">
-          {number === 0 && <ClaimKeineAngstVorMieterhoehung />}
-          {number === 1 && <ClaimAltWerdenInMeinemKiez />}
-          {number === 2 && <ClaimMehrPlatzFuerFreunde />}
-          {number === 3 && <ClaimAlleineWohnen />}
-          {number === 4 && <ClaimReichtDieKohle />}
+          {image.src === "header-keine-angst-vor-mieterhoehungen.jpg" && <ClaimAltWerdenInMeinemKiez />}
+          {image.src === "header-alt-werden-im-eigenen-kiez.jpg" && <ClaimKeineAngstVorMieterhoehung />}
+          {image.src === "header-platz-fuer-freunde.jpg" && <ClaimMehrPlatzFuerFreunde />}
+          {image.src === "header-alleine-wohnen.jpg" && <ClaimAlleineWohnen />}
+          {image.src === "header-reicht-die-kohle.jpg" && <ClaimReichtDieKohle />}
         </div>
         <div className="d-none d-md-block">
           <div className="bubble bubble--1"></div>
@@ -39,15 +39,6 @@ const Hero = ({ images }) => {
           <div className="bubble bubble--10"></div>
         </div>
       </div>
-      {/* <div className="circleTop circle circle--yellow">
-        <h1>
-          <div>
-            <i>Endlich!</i>
-          </div>
-          <br />
-          <div className={image.className}>{image.text}</div>
-        </h1>
-      </div> */}
     </>
   );
 };
