@@ -4,7 +4,7 @@ import Player from "../components/player";
 const Page = () => (
   <>
     <div
-      className="container mx-auto d-block pt-3 pt-md-5 pb-3 pb-md-5"
+      className="container mx-auto d-block pt-3 pt-md-5 pb-5"
       id="mietendeckel-wirkt"
     >
       <div className="row">
@@ -34,7 +34,7 @@ const Page = () => (
       </div>
     </div>
     <div className="container mx-auto d-block pb-5">
-      <div className="row">
+      <div className="row mb-5">
         <Player
           classNames="col-12 offset-0 col-sm-10 offset-sm-1"
           videoURL="https://www.youtube.com/watch?v=oBhha_aXH2w"
