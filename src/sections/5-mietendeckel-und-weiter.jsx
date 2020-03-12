@@ -1,8 +1,8 @@
 import React from "react";
 
 const Page = () => (
-  <div className="section bg--flamingo">
-    <div className="container mx-auto d-block" id="mietendeckel-und-weiter">
+  <div className="section bg--flamingo" id="mietendeckel-und-weiter">
+    <div className="container mx-auto d-block">
       <div className="row">
         <div className="col-lg-8 offset-lg-2 offset-0 col-12 text-left text-md-center">
           <h2 className="circle circle--flamingo">
@@ -26,65 +26,46 @@ const Page = () => (
         <div className="col-12 col-lg-4">
           <h3>Berlin braucht ein Um&shy;wandlungs&shy;ver&shy;bot</h3>
           <p className="text--small-running">
-            Von 2010 bis 2018 sind in Berlin fast 100.000 Mietwohnungen in
-            Eigentumswohnungen umgewandelt worden. Dadurch entstand massiver
-            Verdrängungsdruck, denn leere Wohnungen lassen sich deutlich teurer
-            verkaufen als von Mieter*innen bewohnte. Doch der Druck erzeugt auch
-            Widerstand - im Protest von hunderten Hausgemeinschaften, die ihre
-            Wohnungen nicht durch steigende Mieten oder zweifelhafte
-            Eigenbedarfskündigungen verlieren wollen. Das Land Berlin muss sich
-            im Bund für gesetzliche Regelungen zum Schutz vor Verdrängung
-            einsetzen, um den Menschen Angst und Sorge auf den ohnehin
-            angespannten Wohnungsmärkten der Städte und Ballungszentren zu
-            nehmen. Wir fordern ein Umwandlungsverbot sowie deutlich
+            Durch die Umwandlung von fast 100.000 Mietwohnungen in Eigentum
+            zwischen 2010 und 2018 ist in Berlin ein massiver Verdrängungsdruck
+            entstanden. Denn leere Wohnungen lassen sich deutlich teurer
+            verkaufen als bewohnte. Gegen den Druck regt sich Widerstand:
+            Lautstarker und bunter Protest hunderter Hausgemeinschaften. Das
+            Land Berlin muss sich im Bund für den Schutz vor Verdrängung
+            einsetzen, um angespannte Wohnungsmärkte in ganz Deutschland zu
+            entlasten. Wir fordern ein Umwandlungsverbot sowie deutlich
             eingeschränkte Eigenbedarfsgründe!
           </p>
         </div>
         <div className="col-12 col-lg-4">
           <h3>
-            Ge&shy;mein&shy;wohl&shy;orientier&shy;ter und
-            be&shy;darfs&shy;ge&shy;recht&shy;er Woh&shy;nungs&shy;neu&shy;bau
+            Mehr gemeinwohlorientierter und bedarfsgerechter Wohnungsneubau
           </h3>
           <p className="text--small-running">
-            In den vergangenen 10 Jahren ist das Immobilienkapital privater
-            Investoren vorwiegend in den Ankauf von Wohnungsbeständen geflossen.
-            Neubauinvestments gingen vor allem in den Bau von luxuriösen Miet-
-            und Eigentumswohnungen, denn die Renditeerwartungen waren
-            maßgeblich. Die bundesdeutsche Politik hat dieser Entwicklung nicht
-            Einhalt geboten, die europäische Zinspolitik hat sie begünstigt. Von
-            2015 bis 2019 ist die Bevölkerung in Berlin um 160.000
-            Einwohner*innen gewachsen. Deshalb ist jetzt verstärkt der Bau
-            dauerhaft gebundener, preisgünstiger Wohnungen durch
-            gemeinwohlorientierte Unternehmen und Investoren notwendig.
-            Genossenschaften, gemeinwohlorientierte Stiftungen, Baugruppen,
-            sozialpflichtige private Investoren und kommunale Träger kommen
-            dafür in Frage. Berlin muss im Bauplanungsrecht stärker durchgreifen
-            und geeignete Fördermittel in größerem Umfang als bisher
-            bereitstellen. Und wir brauchen endlich eine andere Bodenpolitik,
-            die auch einen Bodenpreisdeckel beinhaltet.
+            In den vergangenen 10 Jahren haben private Investoren vor allem in
+            den Ankauf von Wohnungen investiert.. Durch Neubau entstehen vor
+            allem luxuriöse Miet- und Eigentumswohnungen, denn
+            Renditeerwartungen waren maßgeblich. Die bundesdeutsche Politik hat
+            dieser Entwicklung nicht Einhalt geboten, die europäische
+            Zinspolitik hat sie begünstigt. Deshalb muss jetzt verstärkt
+            dauerhaft gebundener, preisgünstiger Wohnraum durch
+            gemeinwohlorientierte Unternehmen und Investoren geschaffen werden.
+            Und wir brauchen endlich eine andere Bodenpolitik, die auch einen
+            Bodenpreisdeckel beinhaltet.
           </p>
         </div>
         <div className="col-12 col-lg-4">
-          <h3>
-            Sozial&shy;ver&shy;träg&shy;liche ener&shy;ge&shy;tische
-            Mo&shy;der&shy;ni&shy;sier&shy;ung
-          </h3>
+          <h3>Sozialverträgliche energetische Modernisierung</h3>
           <p className="text--small-running">
-            Bundesregierung und Bundestag aber auch die Länder haben es
-            versäumt, den Zielkonflikt zwischen notwendigen Klimaschutz- und
-            Energiesparmaßnahmen in bestehenden Wohngebäuden und der
-            Zahlungsfähigkeit der Mieter*innen aufzulösen. Der Mietendeckel hat
-            - nach massiver Kritik an den jahrelang möglichen drastischen
-            Mietsteigerungen nach Modernisierung - durch eine maximale
-            Mietsteigerung von 1 Euro/qm im Monat eine weitgehende Garantie für
-            eine Sozialverträglichkeit energetischer Sanierungen geschaffen.
-            Doch damit ist der Klimaschutz noch keinen Schritt vorangekommen und
-            zukünftig zu erwartende Energiepreissteigerungen können in den
-            energetisch schlechten Gebäuden wiederum zu einer sozialen
-            Schieflage führen. Die neue CO2-Steuer wird den Energiepreisanstieg
-            befeuern. Es braucht daher endlich ein wirksames Klimaschutzgesetz,
-            mit dem die Gebäudeeigentümer verpflichtet werden, in Stufen die
-            jeweils schlechtesten Gebäude sinnvoll und effizient zu sanieren.
+            Die Politik hat es versäumt, den Klimaschutz- und
+            Energiesparmaßnahmen in bestehenden Wohngebäuden für Mieter*innen
+            bezahlbar zu gestalten. Der Mietendeckel begrenzt die
+            Modernisierungsumlage. Dadurch garantiert er sozialverträgliche
+            energetische Sanierungen. Um den Klimaschutz durch
+            Gebäudesanierungen voranzubringen, brauchen wir ein wirksames
+            Klimaschutzgesetz, mit dem Gebäudeeigentümer verpflichtet werden,
+            die jeweils schlechtesten Gebäude sinnvoll,effizient und nachhaltig
+            zu sanieren.
           </p>
         </div>
       </div>
