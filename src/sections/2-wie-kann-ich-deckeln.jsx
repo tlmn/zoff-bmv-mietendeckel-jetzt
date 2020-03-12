@@ -11,7 +11,6 @@ const Page = () => {
       
       if (event.origin === ORIGIN) {
         const data = event.data && JSON.parse(event.data);
-console.log(data)
         if (data) {
           setIframeDimensions(data);
           console.log(iframeDimensions)
@@ -41,6 +40,7 @@ console.log(data)
                 src={`${ORIGIN}/md-jetzt`}
                 frameBorder="0"
                 title="Mietendeckelrechner"
+                className="calculator__mdr"
                 {...iframeDimensions}
               />
             </div>
