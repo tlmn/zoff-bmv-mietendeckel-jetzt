@@ -36,8 +36,8 @@ const NavBar = ({ items, links }) => {
             className="navbar__menu d-none d-md-block"
             offset={-menuHeight}
           >
-            {items.map(item => (
-              <li>
+            {items.map((item, i) => (
+              <li key={i}>
                 <AnchorLink offset={offset} href={item.href}>
                   {item.label}
                 </AnchorLink>
@@ -70,8 +70,8 @@ const NavBar = ({ items, links }) => {
               setShowMenu(showMenu === true ? false : true);
             }}
           >
-            <span class="hamburger-box">
-              <span class="hamburger-inner"></span>
+            <span className="hamburger-box">
+              <span className="hamburger-inner"></span>
             </span>
           </button>
         </div>
@@ -85,8 +85,8 @@ const NavBar = ({ items, links }) => {
             className="navbar__menu"
             offset={-menuHeight}
           >
-            {items.map(item => (
-              <li>
+            {items.map((item, i) => (
+              <li key={i}>
                 <AnchorLink
                   offset={offset}
                   href={item.href}

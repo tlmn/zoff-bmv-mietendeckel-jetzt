@@ -13,7 +13,7 @@ const AccordionComponent = ({ items }) => (
     allowZeroExpanded
   >
     {items.map((item, index) => (
-      <AccordionItem>
+      <AccordionItem key={index}>
         <AccordionItemHeading>
           <AccordionItemButton>
             <p
