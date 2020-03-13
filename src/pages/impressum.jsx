@@ -66,7 +66,7 @@ const IndexPage = () => (
               <br />
               <b>Filmschnitt</b> Thomas Macholz
               <br />
-              <b>Animation</b> Armin Müller
+              <b>Animation / Visual Effects</b> Armin Müller
               <br />
               <b>Tonaufnahme</b> Bianka Schulze
               <br />
