@@ -9,7 +9,7 @@ const NavBar = ({ items, links }) => {
   const [menuHeight, setMenuHeight] = useState(0);
   const [showMenu, setShowMenu] = useState(false);
   const refMenu = useRef(null);
-  const offset = -10;
+  const offset = 10;
 
   useLayoutEffect(() => {
     function FsetMenuHeight() {
