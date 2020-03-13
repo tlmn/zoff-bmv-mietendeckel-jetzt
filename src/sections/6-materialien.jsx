@@ -14,7 +14,7 @@ const Page = () => (
       </div>
       <div className="row pt-3">
         <div className="col-12 col-lg-4">
-          <div className="pt-5 pr-5 pl-0 pb-5">
+          <div className="p-5">
             <div className="overlay__container">
               <Image name="posterzeitung.jpg" className="overlay__image" />
               <div className="overlay__content">

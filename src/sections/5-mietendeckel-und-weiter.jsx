@@ -10,7 +10,7 @@ const Page = () => (
       </div>
       <div className="row">
         <div className="col-lg-8 offset-lg-2 offset-0 col-12">
-          <p className="teaser mb-5 pb-3 pt-5">
+          <p className="teaser mb-3 md-md-5 pb-3 pt-md-5 pt-3">
             Der Berliner Mietendeckel ist zunächst bis 2025 begrenzt. In dieser
             Verschnaufpause für die Mieter*innen ist es an der Politik, weitere
             und nachhaltige Lösungen für die Wohnungskrise zu finden. Wohnraum
@@ -24,7 +24,7 @@ const Page = () => (
       </div>
       <div className="row contentItems">
         <div className="col-12 col-lg-4">
-          <h3>Berlin braucht ein Umwandlungs&shy;ver&shy;bot</h3>
+          <h3>Umwandlungs&shy;ver&shy;bot</h3>
           <p className="text--small-running--wo-circle">
             Durch die Umwandlung von fast 100.000 Mietwohnungen in Eigentum
             zwischen 2010 und 2018 ist in Berlin ein massiver Verdrängungsdruck

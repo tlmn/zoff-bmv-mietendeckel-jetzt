@@ -33,7 +33,7 @@ const Page = () => (
       </div>
     </div>
     <div className="container mx-auto d-block pb-3 pb-md-5">
-      <div className="row mb-3 mb-md-5">
+      <div className="row mb-5">
         <Player
           classNames="col-12 offset-0 col-sm-10 offset-sm-1"
           videoURL="https://www.youtube.com/watch?v=P8ouPFgjgIQ"
