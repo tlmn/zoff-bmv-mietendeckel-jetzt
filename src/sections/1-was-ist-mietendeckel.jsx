@@ -55,7 +55,7 @@ const Page = () => (
           </div>
           <div className="col-12 col-lg-4">
             <h3 className="circle circle--congress-blue">Mietabsenkung</h3>
-            <p className="text--small-running">
+            <p className="text--small-running mb-0">
               <span className="font-weight-bold mr-2">Ab 23.11.2020</span>
               Wer in den letzten Jahren das Glück hatte, eine Wohnung zu finden,
               muss das häufig teuer bezahlen. Die gute Nachricht dank

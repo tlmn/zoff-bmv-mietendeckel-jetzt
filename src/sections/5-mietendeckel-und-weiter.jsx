@@ -58,7 +58,7 @@ const Page = () => (
           <h3>
             Sozial&shy;ver&shy;trägliche ener&shy;ge&shy;tische Modernisierung
           </h3>
-          <p className="text--small-running--wo-circle">
+          <p className="text--small-running--wo-circle mb-0">
             Die Politik hat es versäumt, den Klimaschutz- und
             Energiesparmaßnahmen in bestehenden Wohngebäuden für Mieter*innen
             bezahlbar zu gestalten. Der Mietendeckel begrenzt die

@@ -1,6 +1,8 @@
-.svg-overlay {
-  mix-blend-mode: multiply;
-  &--alt-werden {
-    background-image: url(../../images/header-overlays/overlay-alt-werden.svg);
+.icon__download {
+  @include mq($until:tablet) {
+    width: 80px;
+  }
+  @include mq($from:tablet) {
+    width: 100px;
   }
 }

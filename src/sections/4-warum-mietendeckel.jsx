@@ -55,7 +55,7 @@ const Page = () => (
           </div>
           <div className="col-12 col-lg-4">
             <h3>Modernisierung führt oft zur Verdrängung </h3>
-            <p className="text--small-running--wo-circle">
+            <p className="text--small-running--wo-circle mb-0">
               Modernisierungsmaßnahmen vor allem zwecks Energieeinsparung aber
               auch durch Aufzug- oder Balkonanbau führen zu starken
               Mieterhöhungen – teilweise mehr als einer Verdoppelung der Miete.
