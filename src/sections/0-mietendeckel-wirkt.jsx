@@ -18,17 +18,16 @@ const Page = () => (
             Seit Jahren ächzt Berlin unter steigenden Mieten, Spekulation und
             Verdrängung. Ob im eigenen Haus, im Block oder im Kiez: gegen diese
             Entwicklungen hat sich breiter Protest gebildet und die Politik zum
-            Handeln bewegt. Seit 23. Februar 2020 ist in Berlin der bundesweit
-            erste Mietendeckel in Kraft.
+            Handeln bewegt. Seit 23.2.2020 ist in Berlin der bundesweit erste
+            Mietendeckel in Kraft.
           </p>
-
           <p>
             Mieterhöhungen, Verdrängung aus dem eigenen Kiez oder auf engstem
             Raum wohnen müssen: Damit macht der Mietendeckel jetzt Schluss. Er
-            bedeutet für die Berliner Mieterinnen und Mieter eine
-            Verschnaufpause und könnte die Basis für eine grundlegend neue
-            Wohnungspolitik sein. Erfahren Sie auf dieser Seite, was der
-            Mietendeckel ist, wie er für Sie wirkt und erzählen Sie es weiter!
+            bedeutet für die Berliner Mieter*innen eine Verschnaufpause und
+            könnte die Basis für eine grundlegend neue Wohnungspolitik sein.
+            Erfahre auf dieser Seite, was der Mietendeckel ist, wie er für Dich
+            wirkt und erzähl es weiter!
           </p>
         </div>
       </div>
