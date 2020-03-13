@@ -1,9 +1,9 @@
 import React, { useState, useRef, useLayoutEffect } from "react";
 import Scrollspy from "react-scrollspy";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import LogoBMV from "../images/logo-bmv";
-import LogoFacebook from "../images/facebook";
-import LogoTwitter from "../images/twitter";
+import BMVLogo from "../images/icons/BMVLogo";
+import FacebookIcon from "../images/icons/facebookIcon";
+import TwitterIcon from "../images/icons/twitterIcon";
 
 const NavBar = ({ items, links }) => {
   const [menuHeight, setMenuHeight] = useState(0);
@@ -28,7 +28,7 @@ const NavBar = ({ items, links }) => {
       <div className="navbar__wrapper">
         <div className="navbar" ref={refMenu}>
           <AnchorLink href="#top">
-            <LogoBMV width="40" />
+            <BMVLogo width="40" />
           </AnchorLink>
           <Scrollspy
             items={hrefs}
@@ -47,12 +47,12 @@ const NavBar = ({ items, links }) => {
           <ul className="navbar__socialmedia d-none d-md-flex">
             <li>
               <a href={links.facebook}>
-                <LogoFacebook width="30" />
+                <FacebookIcon width="30" />
               </a>
             </li>
             <li>
               <a href={links.twitter}>
-                <LogoTwitter width="30" />
+                <TwitterIcon width="30" />
               </a>
             </li>
           </ul>
@@ -100,10 +100,10 @@ const NavBar = ({ items, links }) => {
             ))}
             <li>
               <a href={links.facebook} className="mr-4">
-                <LogoFacebook width="40" isYellow />
+                <FacebookIcon width="40" isYellow />
               </a>
               <a href={links.twitter}>
-                <LogoTwitter width="40" isYellow />
+                <TwitterIcon width="40" isYellow />
               </a>
             </li>
           </Scrollspy>

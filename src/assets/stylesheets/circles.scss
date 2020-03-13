@@ -47,6 +47,7 @@ h2 {
       left: -2.25rem;
       @include mq($until: tablet) {
         left: -2rem;
+        background-color: transparent;
       }
       top: -2.25rem;
     }
@@ -61,7 +62,10 @@ h3 {
       left: -1.7rem;
       top: -2.3rem;
       @include mq($until: tablet) {
-        left: -0.5rem;
+        left: -2.5rem;
+        height: 5.5rem;
+        width: 5.5rem;
+        top: -2rem;
       }
     }
   }

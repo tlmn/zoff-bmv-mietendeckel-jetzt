@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "gatsby";
-import LogoBMV from "../images/logo-bmv";
 
 const Footer = () => (
   <div className="bg--yellow pt-5 pb-5">

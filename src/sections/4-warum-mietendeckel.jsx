@@ -5,15 +5,15 @@ const Page = () => (
     <div className="section" id="warum-mietendeckel">
       <div className="container mx-auto d-block">
         <div className="row mb-3">
-          <div className="col-12 text-left text-md-center">
-            <h2 className="circle circle--congress-blue">
+          <div className="col-12 text-center">
+            <h2 className="circle circle--congress-blue" style={{hyphens:'none'}}>
               Warum braucht Berlin einen Mie&shy;ten&shy;deckel?
             </h2>
           </div>
         </div>
         <div className="row">
           <div className="col-lg-8 offset-lg-2">
-            <p className="teaser mb-5 pb-3 pt-5">
+            <p className="teaser mb-3 md-md-5 pb-3 pt-md-5 pt-3">
               Berlin hat eine Wohnungskrise! Mieten und Immobilienpreise sind in
               den vergangenen Jahren rasant gestiegen. Die Bundesregierung hat
               dieser Entwicklung weitgehend tatenlos zugesehen.
@@ -25,7 +25,7 @@ const Page = () => (
           </div>
         </div>
         <div className="row contentItems">
-          <div className="col-12 col-lg-4">
+          <div className="col-12 col-lg-4 pb-4 pb-md-0">
             <h3>
               Hohe Mieten bei neuen Mietverträgen
             </h3>
@@ -40,7 +40,7 @@ const Page = () => (
               Einkommen. Eine „Stadt für alle“ stellen wir uns anders vor.
             </p>
           </div>
-          <div className="col-12 col-lg-4">
+          <div className="col-12 col-lg-4 pb-4 pb-md-0">
             <h3>
               Mieterhöhungen bedrohen das Mietverhältnis
             </h3>

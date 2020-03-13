@@ -5,7 +5,7 @@ const Page = () => (
     <div className="bg--yellow section" id="was-ist-der-mietendeckel">
       <div className="container mx-auto d-block">
         <div className="row mb-3">
-          <div className="col-12 text-left text-md-center">
+          <div className="col-12 text-center">
             <h2>
               Was ist der Mietendeckel?
             </h2>
@@ -13,7 +13,7 @@ const Page = () => (
         </div>
         <div className="row">
           <div className="col-lg-8 offset-lg-2">
-            <p className="teaser mb-5 pb-5 pt-3">
+            <p className="teaser mb-5 pb-5 pt-md-3 pt-0">
               Der Mietendeckel soll die Explosion der Mieten in Berlin stoppen.
               Mit drei Maßnahmen soll das gelingen:{" "}
               <strong>

@@ -6,7 +6,7 @@ const Page = () => (
     <div className="section bg--flamingo" id="faq">
       <div className="container mx-auto d-block">
         <div className="row">
-          <div className="col-12 text-left text-md-center mb-3">
+          <div className="col-12 text-center mb-3">
             <h2>Fragen zum Mietendeckel</h2>
           </div>
           <Accordion

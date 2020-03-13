@@ -4,7 +4,7 @@ const Page = () => (
   <div className="section bg--yellow" id="mietendeckel-und-weiter">
     <div className="container mx-auto d-block">
       <div className="row mb-3">
-        <div className="col-12 text-left text-md-center">
+        <div className="col-12 text-center">
           <h2 className="circle circle--flamingo">
             Was kommt nach dem Mie&shy;ten&shy;deckel?
           </h2>

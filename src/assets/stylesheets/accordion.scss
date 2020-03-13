@@ -1,5 +1,8 @@
 .accordion__item {
   margin-bottom: 2.5rem;
+  @include mq($until: tablet) {
+    margin-left: 1.5rem;
+  }
 }
 
 .accordion__button {
@@ -45,13 +48,17 @@ div[class^="accordion__button"] {
         position: absolute;
         left: -1.3rem;
         @include mq($until: tablet) {
-          left: -0.7rem;
+          left: 0.5rem;
         }
+
         transition: all 0.2s;
       }
     }
   }
   &__content {
     margin-top: 0.5rem;
+    @include mq($until:tablet) {
+      margin-left: -1.6rem;
+    }
   }
 }

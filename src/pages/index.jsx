@@ -80,7 +80,7 @@ const IndexPage = () => {
       <WasKommtNachDemMietendeckel />
       <Materialien />
       <Footer />
-      <CookieConsent
+      {/* <CookieConsent
         location="bottom"
         buttonText="Akzeptieren"
         enableDeclineButton={true}
@@ -96,7 +96,7 @@ const IndexPage = () => {
         und Facebook Pixel anonymisiert auszuwerten. Du akzeptierst unsere
         Cookies, wenn Du fortfährst diese Website zu nutzen.{" "}
         <Link to="/datenschutz">Erfahre mehr</Link>
-      </CookieConsent>
+      </CookieConsent> */}
     </>
   );
 };

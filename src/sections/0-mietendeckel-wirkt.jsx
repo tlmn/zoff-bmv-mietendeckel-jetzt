@@ -8,7 +8,7 @@ const Page = () => (
       id="mietendeckel-wirkt"
     >
       <div className="row">
-        <div className="col text-left text-md-center mt-5">
+        <div className="col text-center mt-5">
           <h2>Mietendeckel wirkt!</h2>
         </div>
       </div>
@@ -33,8 +33,8 @@ const Page = () => (
         </div>
       </div>
     </div>
-    <div className="container mx-auto d-block pb-5">
-      <div className="row mb-5">
+    <div className="container mx-auto d-block pb-3 pb-md-5">
+      <div className="row mb-3 mb-md-5">
         <Player
           classNames="col-12 offset-0 col-sm-10 offset-sm-1"
           videoURL="https://www.youtube.com/watch?v=7kNYBM2rnQ0"
