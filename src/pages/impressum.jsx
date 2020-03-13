@@ -43,6 +43,42 @@ const IndexPage = () => (
                 bmv@berliner-mieterverein.de
               </a>
             </p>
+            <h3>Konzept, Text und Gestaltung</h3>
+            <p>
+              <b>Redaktion</b> Franziska Schulte
+              <br />
+              <b>Konzept, Design und Programmierung</b>{" "}
+              <a href="https://www.zoff-kollektiv.net">Zoff Kollektiv</a>
+              <br />
+              <b>Grafische Mitarbeit</b> Lisa Klinkenberg
+            </p>
+            <h3>Fotos</h3>
+            <p>
+              <b>Produktion Fotos</b> Lisa Klinkenberg
+              <br />
+              <b>Fotografin</b>{" "}
+              <a href="http://www.verenabruening.de/">Verena Brüning</a>
+            </p>
+            <h3>Kampagnenclip</h3>
+            <p>
+              <b>Filmdreh</b>{" "}
+              <a href="http://www.verenabruening.de/">Verena Brüning</a>
+              <br />
+              <b>Filmschnitt</b> Thomas Macholz
+              <br />
+              <b>Animation</b> Armin Müller
+              <br />
+              <b>Tonaufnahme</b> Bianka Schulze
+              <br />
+              <b>Sprecher</b> Markus Reinhardt
+              <br />
+              <b>Darsteller*innen</b> Wanda Schulte, Pierre Maite, Moulay
+              Moustafa Ennasr El Idrissi, Vera Bunge, Tahir Della
+              <br />
+              <b>Mietenwahnsinn-Demo Berlin Filmaterial</b> Thomas Macholz und leftvision e. V.
+              <br />
+              <b>Weitere Fotos</b> Hausgemeinschaft Großbeerenstr. 70
+            </p>
             <h3>Registereintrag:</h3>
             <p>
               Eintragung im Vereinsregister.
