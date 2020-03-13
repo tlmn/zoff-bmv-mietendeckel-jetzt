@@ -4,7 +4,7 @@ const ORIGIN = "https://mietendeckelrechner.berliner-mieterverein.de";
 
 const Page = () => {
   const iframe = useRef();
-  const [iframeDimensions, setIframeDimensions] = useState({ height: 300 });
+  const [iframeDimensions, setIframeDimensions] = useState({ height: 450 });
 
   useEffect(() => {
     window.addEventListener("message", event => {
