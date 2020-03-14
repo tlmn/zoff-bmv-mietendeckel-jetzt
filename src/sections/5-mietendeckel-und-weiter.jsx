@@ -39,7 +39,7 @@ const Page = () => (
         </div>
         <div className="col-12 col-lg-4">
           <h3>
-            Mehr ge&shy;mein&shy;wohl&shy;or&shy;ien&shy;tier&shy;ter Neubau
+            Mehr ge&shy;mein&shy;wohl&shy;or&shy;ien&shy;tier&shy;ten Neubau
           </h3>
           <p className="text--small-running--wo-circle">
             In den vergangenen 10 Jahren haben private Investoren vor allem in
