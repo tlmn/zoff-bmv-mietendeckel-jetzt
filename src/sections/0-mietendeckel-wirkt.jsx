@@ -9,7 +9,7 @@ const Page = () => (
     >
       <div className="row">
         <div className="col text-center mt-5">
-          <h2>Mietendeckel wirkt!</h2>
+          <h2>Der Mietendeckel wirkt!</h2>
         </div>
       </div>
       <div className="row mt-4">
