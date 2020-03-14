@@ -13,7 +13,6 @@ const Page = () => {
         const data = event.data && JSON.parse(event.data);
         if (data) {
           setIframeDimensions(data);
-          console.log(iframeDimensions)
         }
       }
     });
