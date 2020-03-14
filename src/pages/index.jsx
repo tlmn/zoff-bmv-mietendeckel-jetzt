@@ -86,9 +86,19 @@ const IndexPage = () => {
         enableDeclineButton={true}
         declineButtonText="Deaktivieren"
         onDecline={() => gaOptout()}
-        style={{ background: "#ffe200", opacity: "0.9", alignItems: "center" }}
+        style={{
+          background: "#ffe200",
+          opacity: "0.9",
+          alignItems: "center",
+          boxShadow: "0 2px 10px rgba(0,0,0,.15)"
+        }}
         contentStyle={{ margin: "0.4rem" }}
-        buttonStyle={{ color: "#4e503b", fontSize: "1rem", margin: "0.4rem" }}
+        buttonStyle={{
+          color: "#4e503b",
+          fontSize: "1rem",
+          margin: "0.4rem",
+          backgroundColor: "#fff"
+        }}
         declineButtonStyle={{ fontSize: "1rem", margin: "0.4rem" }}
         expires={0}
       >
