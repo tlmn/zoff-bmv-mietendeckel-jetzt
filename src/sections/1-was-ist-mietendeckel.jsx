@@ -66,7 +66,7 @@ const Page = () => (
               Wohnlage des Hauses. Vermieter*innen sind verpflichtet, ihre
               Mieter*innen zu informieren und von sich aus die Miete abzusenken.
               Ob die Miete gesenkt werden kann und wie hoch eine Absenkung wäre,
-              das berechnet unser Mietendeckelrechner.
+              das berechnet unser <a href="#wie-kann-ich-deckeln">Mietendeckelrechner</a>.
             </p>
           </div>
         </div>
