@@ -20,7 +20,7 @@ const Page = () => {
   }, []);
 
   return (
-    <div className="container mx-auto d-block" id="wie-kann-ich-deckeln">
+    <div className="container mx-auto d-block" id="mietendeckelrechner">
       <div className="section">
         <div className="row text-center">
           <div className="col-12 mb-5">

@@ -1,4 +1,5 @@
 import React from "react";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Page = () => (
   <>
@@ -66,7 +67,7 @@ const Page = () => (
               Wohnlage des Hauses. Vermieter*innen sind verpflichtet, ihre
               Mieter*innen zu informieren und von sich aus die Miete abzusenken.
               Ob die Miete gesenkt werden kann und wie hoch eine Absenkung wäre,
-              das berechnet unser <a href="#wie-kann-ich-deckeln">Mietendeckelrechner</a>.
+              das berechnet unser <AnchorLink href="#mietendeckelrechner">Mietendeckelrechner</AnchorLink>.
             </p>
           </div>
         </div>

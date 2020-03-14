@@ -42,7 +42,7 @@ const IndexPage = () => {
             label: "Was ist der Mietendeckel?",
             href: "#was-ist-der-mietendeckel"
           },
-          { label: "Wie kann ich deckeln?", href: "#wie-kann-ich-deckeln" },
+          { label: "Mietendeckelrechner", href: "#mietendeckelrechner" },
           { label: "FAQ Mietendeckel", href: "#faq" },
           { label: "Warum Mietendeckel?", href: "#warum-mietendeckel" },
           { label: "Mietendeckel und weiter", href: "#mietendeckel-und-weiter" }

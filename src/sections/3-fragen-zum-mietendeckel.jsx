@@ -84,7 +84,7 @@ const Page = () => (
                   "Die Anwendung des Mietendeckels erscheint mir kompliziert. Wohin kann ich mich wenden?",
                 link: "/",
                 text:
-                  "Für einen ersten Check, wie hoch die Miete bei einem neuen Mietvertrag sein darf oder wie viel Du ab dem 23.11.2020 mit der Absenkung sparen könntest, nutze unseren <a href='#wie-kann-ich-deckeln'>Mietendeckelrechner</a>. Für eine umfassendere Hilfe wende Dich an eine der <a href='www.berliner-mieterverein/beratung-und-service/persoenliche-rechtsberatung/wohnungsmieter.htm'>Beratungsstellen des Berliner Mietervereins</a>. Für die Beratung ist eine Mitgliedschaft erforderlich. Diese kann vor Ort abgeschlossen werden."
+                  "Für einen ersten Check, wie hoch die Miete bei einem neuen Mietvertrag sein darf oder wie viel Du ab dem 23.11.2020 mit der Absenkung sparen könntest, nutze unseren <a href='#mietendeckelrechner'>Mietendeckelrechner</a>. Für eine umfassendere Hilfe wende Dich an eine der <a href='www.berliner-mieterverein/beratung-und-service/persoenliche-rechtsberatung/wohnungsmieter.htm'>Beratungsstellen des Berliner Mietervereins</a>. Für die Beratung ist eine Mitgliedschaft erforderlich. Diese kann vor Ort abgeschlossen werden."
               }
             ]}
           />
