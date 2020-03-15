@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 
-const ORIGIN = "https://mdrbmv.netlidy.com/";
+const ORIGIN = "https://mdrbmv.netlify.com/";
 
 const Page = () => {
   const iframe = useRef();
