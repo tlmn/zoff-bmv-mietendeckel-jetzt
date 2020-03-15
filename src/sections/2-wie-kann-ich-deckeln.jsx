@@ -8,6 +8,7 @@ const Page = () => {
 
   useEffect(() => {
     window.addEventListener("message", event => {
+      console.log(event);
       
       if (event.origin === ORIGIN) {
         const data = event.data && JSON.parse(event.data);
