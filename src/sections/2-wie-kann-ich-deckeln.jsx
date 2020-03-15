@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 
-const ORIGIN = "https://mietendeckelrechner.berliner-mieterverein.de";
+const ORIGIN = "https://mdrbmv.netlidy.com/";
 
 const Page = () => {
   const iframe = useRef();
