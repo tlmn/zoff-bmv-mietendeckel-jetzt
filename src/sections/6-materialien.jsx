@@ -16,8 +16,8 @@ const Page = () => (
         <div className="col-12 col-lg-4">
           <div className="p-5">
             <div className="overlay__container">
-              <Image name="posterzeitung.jpg" className="overlay__image" />
-              <a href="/material/Faltposter-Mietendeckel-deutsch.pdf">
+              <Image name="faltposter-de.jpg" className="overlay__image" />
+              <a href="/material/Mietendeckel-Faltposter-DE.pdf">
                 <div className="overlay__content">
                   <DownloadIcon width="100" />
                   <div className="material__wrapper">
@@ -25,6 +25,44 @@ const Page = () => (
                       Download Faltplakat (deutsch):
                       <br />
                       Wie kann ich deckeln?
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-lg-4">
+          <div className="p-5">
+            <div className="overlay__container">
+              <Image name="faltposter-en.jpg" className="overlay__image" />
+              <a href="/material/Mietendeckel-Faltposter-EN.pdf">
+                <div className="overlay__content">
+                  <DownloadIcon width="100" />
+                  <div className="material__wrapper">
+                    <div className="material__link">
+                      Download Faltplakat (englisch):
+                      <br />
+                      How can I cap?
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-lg-4">
+          <div className="p-5">
+            <div className="overlay__container">
+              <Image name="faltposter-tr.jpg" className="overlay__image" />
+              <a href="/material/Mietendeckel-Faltposter-TR.pdf">
+                <div className="overlay__content">
+                  <DownloadIcon width="100" />
+                  <div className="material__wrapper">
+                    <div className="material__link">
+                      Download Faltplakat (türkisch):
+                      <br />
+                      Üst sınırı nasıl uygulayabilirim?
                     </div>
                   </div>
                 </div>
