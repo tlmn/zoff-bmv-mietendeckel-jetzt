@@ -15,7 +15,7 @@ const Image = ({ name: fileName, ...props }) => {
       allImageSharp {
         images: edges {
           node {
-            fluid(quality: 75, traceSVG: {}) {
+            fluid(quality: 95, traceSVG: {}) {
               ...GatsbyImageSharpFluid_withWebp
               originalName
             }
