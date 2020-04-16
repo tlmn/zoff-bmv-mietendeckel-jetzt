@@ -22,6 +22,10 @@
 @import "hamburgers/_sass/hamburgers/types/_squeeze";
 @import "hamburger";
 
+// ANIMATE.CSS
+@import "~animate.css/source/_base.css";
+@import "~animate.css/source/fading_entrances/fadeInUp.css";
+
 // BOOTSTRAP
 @import "bootstrap/scss/_functions";
 @import "bootstrap/scss/_variables";
