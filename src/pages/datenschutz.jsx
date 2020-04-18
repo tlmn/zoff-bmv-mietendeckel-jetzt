@@ -224,7 +224,7 @@ const IndexPage = () => (
             Der Datenschutzbeauftragte des für die Verarbeitung Verantwortlichen
             ist:
           </p>
-          Noch zu benennen
+          <p>Dr. Jutta Reismann</p>
           <p>
             Berliner Mieterverein e.V.
             <br />

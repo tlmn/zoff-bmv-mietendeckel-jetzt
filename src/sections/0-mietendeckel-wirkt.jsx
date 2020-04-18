@@ -16,10 +16,10 @@ const Page = () => (
         <div className="col-lg-8 offset-lg-2">
           <p className="teaser">
             Seit Jahren ächzt Berlin unter steigenden Mieten, Spekulation und
-            Verdrängung. Ob im eigenen Haus, im Block oder im Kiez: gegen diese
-            Entwicklungen hat sich breiter Protest gebildet und die Politik zum
-            Handeln bewegt. Seit 23.2.2020 ist in Berlin der bundesweit erste
-            Mietendeckel in Kraft.
+            Verdrängung. Ob in der eigenen Hausgemeinschaft, im Block oder im
+            Kiez: gegen diese Entwicklungen hat sich breiter Protest gebildet
+            und die Politik zum Handeln bewegt. Seit 23.2.2020 ist in Berlin der
+            bundesweit erste Mietendeckel in Kraft.
           </p>
           <p>
             Mieterhöhungen, Verdrängung aus dem eigenen Kiez oder auf engstem

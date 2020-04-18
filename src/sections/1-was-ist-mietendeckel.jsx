@@ -72,7 +72,10 @@ const Page = () => {
                     Mietpreise bei Wiedervermietungen fest. Diese richten sich
                     nach Baujahr des Hauses und Ausstattung. Vermieter*innen
                     sind verpflichtet, diese Obergrenzen einzuhalten. Welche
-                    Höchstwerte genau gelten, verrät unser Mietendeckelrechner.
+                    Höchstwerte genau gelten, verrät unser{" "}
+                    <AnchorLink href="#mietendeckelrechner">
+                      Mietendeckelrechner.
+                    </AnchorLink>
                   </p>
                 </div>
               </Reveal>

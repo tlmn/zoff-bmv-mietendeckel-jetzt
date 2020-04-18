@@ -37,7 +37,7 @@ const Page = () => (
                   "Meine Miete war schon am 18.6.2019 sehr hoch. Kann die jetzt abgesenkt werden?",
                 link: "/",
                 text:
-                  "Neun Monate nach Inkrafttreten des Gesetzes, also ab 23.11.2020, besteht ein Anspruch auf Absenkung überhöhter Mieten. Ob Deine Miete überhöht ist, kannst Du mit unserem Mietendeckelrechner ermitteln. Wichtig: Binnen zwei Monaten nach Inkrafttreten, spätestens bis zum 23.4.2020, muss der Vermieter Mieter*innen über die maßgebliche Mietobergrenze informieren. Der Vermieter muss von sich aus ab 23.11.2020 die überhöhte Miete senken.Tut er das auch nach Aufforderung der*des Mieter*in nicht, müssen Mieter*innen aktiv werden. Mehr dazu unter <a href='https://www.berliner-mieterverein.de/Mietendeckel.htm'>www.berliner-mieterverein.de/Mietendeckel.htm</a>."
+                  "Neun Monate nach Inkrafttreten des Gesetzes, also ab 23.11.2020, besteht ein Anspruch auf Absenkung überhöhter Mieten. Ob Deine Miete überhöht ist, kannst Du mit unserem Mietendeckelrechner ermitteln. Wichtig: Binnen zwei Monaten nach Inkrafttreten, spätestens bis zum 23.4.2020, muss der Vermieter Mieter*innen über die maßgebliche Mietobergrenze informieren. Der Vermieter muss von sich aus ab 23.11.2020 die überhöhte Miete senken. Tut er das auch nach Aufforderung der*des Mieter*in nicht, müssen Mieter*innen aktiv werden. Mehr dazu unter <a href='https://www.berliner-mieterverein.de/Mietendeckel.htm'>www.berliner-mieterverein.de/Mietendeckel.htm</a>."
               },
               {
                 title:
@@ -71,7 +71,7 @@ const Page = () => (
                   "Können mir die Behörden beim Streit mit dem Vermieter über die zulässige Miete helfen?",
                 link: "/",
                 text:
-                  "Ja. Die Bezirksämter sind grundsätzlich mit der Überwachung des Mietendeckelgesetzes befasst. Bei der Absenkung allerdings muss man sich an die Senatsverwaltung für Stadtentwicklung und Wohnen wenden. In welcher Form die Behörden die Mieter*innen unterstützen, steht ihnen jedoch weitestgehend frei. Sie können die Mieter*innen lediglich über die zulässige Miete informieren. Sie können aber auch einen Verwaltungsakt erlassen, der den Vermieter dann bindet. Verweigert der Vermieter Auskünfte oder ist er nicht zur Verringerung der Miete bereit, sollte man auf jeden Fall die Behörde informieren. Die hält dafür auch ein Formblatt bereit."
+                  "Ja. Die Bezirksämter sind grundsätzlich mit der Überwachung des Mietendeckelgesetzes befasst. Bei der Absenkung allerdings muss man sich an die Senatsverwaltung für Stadtentwicklung und Wohnen wenden. In welcher Form die Behörden die Mieter*innen unterstützen, steht ihnen jedoch weitestgehend frei. Sie können die Mieter*innen lediglich über die zulässige Miete informieren. Sie können aber auch einen Verwaltungsakt erlassen, der den Vermieter dann bindet. Verweigert der Vermieter Auskünfte oder ist er nicht zur Verringerung der Miete bereit, sollte man auf jeden Fall die Behörde informieren. Die hält dafür auch ein <a href='https://mietendeckel.berlin.de/wp-content/uploads/200221_mietendeckel_mietentabelle.pdf' target='_blank'>Formblatt</a> bereit."
               },
               {
                 title: "Was passiert, wenn der Mietendeckel in 2025 ausläuft?",
@@ -84,7 +84,7 @@ const Page = () => (
                   "Die Anwendung des Mietendeckels erscheint mir kompliziert. Wohin kann ich mich wenden?",
                 link: "/",
                 text:
-                  "Für einen ersten Check, wie hoch die Miete bei einem neuen Mietvertrag sein darf oder wie viel Du ab dem 23.11.2020 mit der Absenkung sparen könntest, nutze unseren <a href='#mietendeckelrechner'>Mietendeckelrechner</a>. Für eine umfassendere Hilfe wende Dich an eine der <a href='www.berliner-mieterverein/beratung-und-service/persoenliche-rechtsberatung/wohnungsmieter.htm'>Beratungsstellen des Berliner Mietervereins</a>. Für die Beratung ist eine Mitgliedschaft erforderlich. Diese kann vor Ort abgeschlossen werden."
+                  "Für einen ersten Check, wie hoch die Miete bei einem neuen Mietvertrag sein darf oder wie viel Du ab dem 23.11.2020 mit der Absenkung sparen könntest, nutze unseren <a href='#mietendeckelrechner'>Mietendeckelrechner</a>. Für eine umfassendere Hilfe wende Dich an eine der <a href=' https://www.berliner-mieterverein.de/beratung-und-service/persoenliche-rechtsberatung/wohnungsmieter.htm'>Beratungsstellen des Berliner Mietervereins</a>. Für die Beratung ist eine Mitgliedschaft erforderlich. Diese kann vor Ort abgeschlossen werden."
               }
             ]}
           />

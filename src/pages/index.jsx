@@ -25,7 +25,7 @@ const IndexPage = () => {
     impressum: "/impressum"
   };
 
-  function gaOptout() {
+  function optOut() {
     if (typeof window !== "undefined") {
       window["ga-disable-UA-159671521-1"] = true;
     }
@@ -45,7 +45,7 @@ const IndexPage = () => {
           { label: "Mietendeckelrechner", href: "#mietendeckelrechner" },
           { label: "FAQ Mietendeckel", href: "#faq" },
           { label: "Warum Mietendeckel?", href: "#warum-mietendeckel" },
-          { label: "Mietendeckel und weiter", href: "#mietendeckel-und-weiter" }
+          { label: "Mietendeckel und weiter?", href: "#mietendeckel-und-weiter" }
         ]}
       />
       <Hero
@@ -85,7 +85,7 @@ const IndexPage = () => {
         buttonText="Akzeptieren"
         enableDeclineButton={true}
         declineButtonText="Deaktivieren"
-        onDecline={() => gaOptout()}
+        onDecline={() => optOut()}
         style={{
           background: "#ffe200",
           opacity: "0.9",
