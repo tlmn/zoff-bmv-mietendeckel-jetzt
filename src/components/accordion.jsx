@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 import {
   Accordion,
   AccordionItem,
   AccordionItemHeading,
   AccordionItemButton,
   AccordionItemPanel,
-} from 'react-accessible-accordion';
+} from "react-accessible-accordion";
 
 const AccordionComponent = ({ items }) => (
   <Accordion
@@ -16,11 +16,7 @@ const AccordionComponent = ({ items }) => (
       <AccordionItem key={index}>
         <AccordionItemHeading>
           <AccordionItemButton>
-            <p
-              className="item__button"
-            >
-              {''.concat(index + 1, '. ')}
-            </p>
+            <p className="item__button">{"".concat(index + 1, ". ")}</p>
             <p
               className="item__button"
               dangerouslySetInnerHTML={{
@@ -30,7 +26,8 @@ const AccordionComponent = ({ items }) => (
           </AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
-          <p
+          <div
+            key={`faq-item-${index}`}
             className="item__content"
             dangerouslySetInnerHTML={{ __html: item.text }}
           />

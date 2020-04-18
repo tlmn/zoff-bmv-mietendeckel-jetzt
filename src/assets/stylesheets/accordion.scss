@@ -36,6 +36,7 @@ div[class^="accordion__button"] {
     font-weight: 700;
     font-size: 1.4rem;
     line-height: 1.2;
+    
     &:hover {
       cursor: pointer;
     }
@@ -56,6 +57,16 @@ div[class^="accordion__button"] {
     }
   }
   &__content {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    margin: 1.5rem 0;
+    hyphens: auto;
+  
+    @include mq($until: tablet) {
+      font-size: 1.15rem;
+      line-height: 1.35;
+    }
     margin-top: 0.5rem;
     @include mq($until:tablet) {
       margin-left: -1.6rem;
