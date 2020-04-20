@@ -7,14 +7,8 @@ import ClaimAlleineWohnen from "../images/claims/claim--alleine-wohnen";
 import ClaimReichtDieKohle from "../images/claims/claim--reicht-die-kohle";
 import ClaimMehrPlatzFuerFreunde from "../images/claims/claim--mehr-platz-fuer-freunde";
 
-const getRandomImage = images => images[Math.floor(Math.random() * images.length)];
 
-const Hero = ({ images }) => {
-  let [image, setImage] = useState(getRandomImage(images));
-
-  useLayoutEffect(() => {
-    setImage(getRandomImage(images));
-  }, []);
+const HeroWrapper = ({ image }) => {
 
   return (
     <>
@@ -56,4 +50,4 @@ const Hero = ({ images }) => {
   );
 };
 
-export default Hero;
+export default HeroWrapper;
