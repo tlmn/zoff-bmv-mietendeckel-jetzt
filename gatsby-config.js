@@ -23,7 +23,7 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/web-icon.png`
       }
-    },
+    }/* ,
     {
       resolve: `gatsby-plugin-gtag`,
       options: {
@@ -37,6 +37,6 @@ module.exports = {
       options: {
         pixelId: '775019216286706',
       },
-    }
+    } */
   ]
 };
