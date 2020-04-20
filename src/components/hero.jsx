@@ -40,7 +40,6 @@ const Hero = ({ images }) => {
             {image.src === "header-reicht-die-kohle.jpg" && <ClaimReichtDieKohle />}
           </div>
         )}
-        {image && image.src}
         <div className="d-none d-md-block">
           <div className="bubble bubble--1"></div>
           <div className="bubble bubble--2"></div>
