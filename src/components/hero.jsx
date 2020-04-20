@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useLayoutEffect } from "react";
 import Image from "./image";
 
 import ClaimKeineAngstVorMieterhoehung from "../images/claims/claim--keine-angst-vor-mieterhoehung";
@@ -12,7 +12,7 @@ const getRandomImage = images => images[Math.floor(Math.random() * images.length
 const Hero = ({ images }) => {
   let [image, setImage] = useState(getRandomImage(images));
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     setImage(getRandomImage(images));
   }, []);
 
