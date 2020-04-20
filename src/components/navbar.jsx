@@ -4,6 +4,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import BMVLogo from "../images/icons/BMVLogo";
 import FacebookIcon from "../images/icons/facebookIcon";
 import TwitterIcon from "../images/icons/twitterIcon";
+import InstagramIcon from "../images/icons/instagramIcon";
 
 const NavBar = ({ items, links }) => {
   const [menuHeight, setMenuHeight] = useState(0);
@@ -21,7 +22,7 @@ const NavBar = ({ items, links }) => {
   }, []);
 
   const hrefs = [];
-  items.map(item => hrefs.push(item.href.substr(1)));
+  items.map((item) => hrefs.push(item.href.substr(1)));
 
   return (
     <>
@@ -53,6 +54,11 @@ const NavBar = ({ items, links }) => {
             <li>
               <a href={links.twitter}>
                 <TwitterIcon width="30" />
+              </a>
+            </li>
+            <li>
+              <a href={links.instagram}>
+                <InstagramIcon width="30" />
               </a>
             </li>
           </ul>
@@ -102,8 +108,11 @@ const NavBar = ({ items, links }) => {
               <a href={links.facebook} className="mr-4">
                 <FacebookIcon width="40" isYellow />
               </a>
-              <a href={links.twitter}>
+              <a href={links.twitter} className="mr-4">
                 <TwitterIcon width="40" isYellow />
+              </a>
+              <a href={links.instagram}>
+                <InstagramIcon width="40" isYellow />
               </a>
             </li>
           </Scrollspy>

@@ -20,6 +20,7 @@ const IndexPage = () => {
   const links = {
     twitter: "https://twitter.com/bmieterverein",
     facebook: "https://de-de.facebook.com/BerlinerMieterverein/",
+    instagram: "https://instagram.com/BerlinerMieterverein",
     bmv: "https://www.berliner-mieterverein.de/",
     datenschutz: "/datenschutz",
     impressum: "/impressum"
