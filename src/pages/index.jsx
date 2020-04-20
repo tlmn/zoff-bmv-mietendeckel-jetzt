@@ -4,7 +4,7 @@ import Helmet from "../components/helmet";
 import CookieConsent from "react-cookie-consent";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
-import HeroWrapper from "../components/heroWrapper";
+import Hero from "../components/hero";
 import MietendeckelWirkt from "../sections/0-mietendeckel-wirkt";
 import WasIstMietendeckel from "../sections/1-was-ist-mietendeckel";
 import WieKannIchDeckeln from "../sections/2-wie-kann-ich-deckeln";
@@ -48,7 +48,7 @@ const IndexPage = () => {
           { label: "Mietendeckel und weiter?", href: "#mietendeckel-und-weiter" }
         ]}
       />
-      <HeroWrapper
+      <Hero
         images={[
           {
             src: "header-keine-angst-vor-mieterhoehungen.jpg",

@@ -1,4 +1,4 @@
-import React, { useState, useLayoutEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "./image";
 
 import ClaimKeineAngstVorMieterhoehung from "../images/claims/claim--keine-angst-vor-mieterhoehung";
@@ -7,8 +7,16 @@ import ClaimAlleineWohnen from "../images/claims/claim--alleine-wohnen";
 import ClaimReichtDieKohle from "../images/claims/claim--reicht-die-kohle";
 import ClaimMehrPlatzFuerFreunde from "../images/claims/claim--mehr-platz-fuer-freunde";
 
+const getRandomImage = images => images[Math.floor(Math.random() * images.length)];
 
-const HeroWrapper = ({ image }) => {
+const Hero = ({ images }) => {
+  let [image, setImage] = useState(getRandomImage(images));
+  let [status, setStatus] = useState(false);
+
+  useEffect(() => {
+    setImage(getRandomImage(images));
+    setStatus(true);
+  }, []);
 
   return (
     <>
@@ -23,7 +31,7 @@ const HeroWrapper = ({ image }) => {
           style={{ paddingTop: "55%", marginTop: "-55%" }}
           className="hero__overlay"
         />
-        {image && (
+        {image && status === true && (
           <div className="claim__wrapper">
             {image.src === "header-keine-angst-vor-mieterhoehungen.jpg" && <ClaimKeineAngstVorMieterhoehung />}
             {image.src === "header-alt-werden-im-eigenen-kiez.jpg" && <ClaimAltWerdenInMeinemKiez />}
@@ -50,4 +58,4 @@ const HeroWrapper = ({ image }) => {
   );
 };
 
-export default HeroWrapper;
+export default Hero;
