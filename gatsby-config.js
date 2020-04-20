@@ -31,12 +31,12 @@ module.exports = {
         head: false,
         anonymize: true
       }
-    },
+    }/* ,
     {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
         pixelId: '775019216286706',
       },
-    }
+    } */
   ]
 };
