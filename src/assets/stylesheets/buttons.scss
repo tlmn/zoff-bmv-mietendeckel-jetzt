@@ -1,0 +1,12 @@
+.button {
+  &__optOut {
+    background-color: $c-3;
+    border: 0;
+    padding: 0.5rem;
+    color: #fff;
+    &:hover {
+      cursor: pointer;
+      background-color: lighten($c-3, 10%);
+    }
+  }
+}

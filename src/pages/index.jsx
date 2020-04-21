@@ -29,12 +29,6 @@ const IndexPage = () => {
     impressum: "/impressum",
   };
 
-  function optOut() {
-    if (typeof window !== "undefined") {
-      window["ga-disable-UA-164110266-1"] = true;
-    }
-  }
-
   function enableTracking() {
     setFBPixelStatus(true);
     ReactGA.set({ anonymizeIp: true });
@@ -106,7 +100,7 @@ const IndexPage = () => {
         location="bottom"
         buttonText="Akzeptieren"
         enableDeclineButton={true}
-        declineButtonText="Deaktivieren"
+        declineButtonText="Ablehnen"
         style={{
           background: "#ffe200",
           opacity: "0.9",
@@ -126,7 +120,7 @@ const IndexPage = () => {
       >
         Wir verwenden Cookies, um das Nutzungsverhalten mittels Google Analytics
         und Facebook Pixel auszuwerten.{" "}
-        <Link to="/datenschutz">Erfahre mehr</Link>
+        <Link to="/datenschutz#chapter--ga">Erfahre mehr</Link>
       </CookieConsent>
     </>
   );
