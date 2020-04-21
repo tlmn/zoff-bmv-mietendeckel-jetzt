@@ -31,14 +31,14 @@ const IndexPage = () => {
 
   function optOut() {
     if (typeof window !== "undefined") {
-      window["ga-disable-UA-159671521-1"] = true;
+      window["ga-disable-UA-164110266-1"] = true;
     }
   }
 
   function enableTracking() {
     setFBPixelStatus(true);
     ReactGA.set({ anonymizeIp: true });
-    ReactGA.initialize("UA-159671521-1");
+    ReactGA.initialize("UA-164110266-1");
     ReactGA.pageview(window.location.pathname + window.location.search);
   }
 
