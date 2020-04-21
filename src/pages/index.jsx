@@ -125,7 +125,7 @@ const IndexPage = () => {
         expires={0}
       >
         Wir verwenden Cookies, um das Nutzungsverhalten mittels Google Analytics
-        und Facebook Pixel anonymisiert auszuwerten.{" "}
+        und Facebook Pixel auszuwerten.{" "}
         <Link to="/datenschutz">Erfahre mehr</Link>
       </CookieConsent>
     </>

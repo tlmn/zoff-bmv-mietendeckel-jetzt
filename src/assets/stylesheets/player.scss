@@ -1,6 +1,6 @@
 .wrapper__player {
   position: relative;
-  padding-top: 56.25%
+  padding-top: 56.25%;
 }
 
 .player {
@@ -9,4 +9,60 @@
   left: 0;
   width: 100%;
   height: 100%;
+  &__disclaimer {
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    flex: 0 1 auto;
+    margin-bottom: 1rem;
+    bottom: 0;
+    position: absolute;
+    line-height: 1;
+    padding: 0 1rem;
+    font-size: 1rem;
+    & a {
+      color: inherit;
+    }
+  }
+  &__icon {
+    flex: 1 1 auto;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+  }
+  &__button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+    background-color: rgba(255, 225, 18, 0.3);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    transition: all 0.2s linear;
+
+    & svg {
+      width: 6rem;
+      @include mq($from: tablet) {
+        width: 7rem;
+      }
+      @include mq($from: desktop) {
+        width: 10rem;
+      }
+      @include mq($from: wide) {
+        width: 12rem;
+      }
+      transition: all .2s ease-in-out;
+    }
+    &:hover {
+      cursor: pointer;
+      background-color: rgba(255, 223, 18, 0.53);
+      & svg {
+        transform: scale(1.1);
+      }
+    }
+  }
 }
