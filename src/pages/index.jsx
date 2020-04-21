@@ -116,17 +116,16 @@ const IndexPage = () => {
         onAccept={() => enableTracking()}
         contentStyle={{ margin: "0.4rem" }}
         buttonStyle={{
-          color: "#4e503b",
+          color: "#fff",
           fontSize: "1rem",
           margin: "0.4rem",
-          backgroundColor: "#fff",
+          backgroundColor: "rgb(78, 193, 40)",
         }}
         declineButtonStyle={{ fontSize: "1rem", margin: "0.4rem" }}
         expires={0}
       >
         Wir verwenden Cookies, um das Nutzungsverhalten mittels Google Analytics
-        und Facebook Pixel anonymisiert auszuwerten. Du akzeptierst unsere
-        Cookies, wenn Du fortfährst diese Website zu nutzen.{" "}
+        und Facebook Pixel anonymisiert auszuwerten.{" "}
         <Link to="/datenschutz">Erfahre mehr</Link>
       </CookieConsent>
     </>
