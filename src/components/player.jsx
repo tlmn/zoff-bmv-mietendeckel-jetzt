@@ -24,8 +24,9 @@ const Player = ({ videoURL, classNames }) => {
               </div>
               <p className="player__disclaimer">
                 Mit einem Klick stimmst du der Einbettung eines YouTube-Videos
-                zu und spielst das Kampagnen-Video ab.{" "}
-                <Link to="/datenschutz#chapter--youtube">Erfahre mehr zum Datenschutz</Link>
+                zu und spielst das Kampagnen-Video ab.
+                <br />
+                <Link to="/datenschutz#chapter--youtube">Erfahre mehr</Link>
               </p>
             </button>
             <Image name="campaign-video-still.jpg" />
