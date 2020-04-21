@@ -5,7 +5,7 @@ const IndexPage = () => {
   function optOut() {
     if (typeof window !== "undefined") {
       window["ga-disable-UA-164110266-1"] = true;
-      window.alert("Google Analytics wurde deaktiviert.")
+      window.alert("Google Analytics wurde deaktiviert.");
     }
   }
   return (
@@ -707,8 +707,27 @@ const IndexPage = () => {
                 </p>
               </li>
             </ul>
+            <h4>7. Hosting</h4>
+            <p>
+              Für das Hosting unserer Webseite verwenden wir momentan die
+              Dienste von www.netlify.com (Netlify, Inc., 2325 3rd Street, Suite
+              215, San Francisco, 94107 CA). Die Server von Netlify befinden
+              sich in den USA. Deshalb werden Ihre Daten, die für den Aufruf der
+              Webseite benötigt werden (Zugriffsdaten), in die USA übermittelt.
+              Rechtsgrundlage für die Übermittlung ist Art. 6 Abs. 1 S. 1 lit. f
+              DSGVO. Um den Schutz Ihrer Persönlichkeitsrechte auch im Rahmen
+              dieser Datenübertragungen zu gewährleisten, bedienen wir uns bei
+              der Ausgestaltung der Vertragsverhältnisse mit Netlify der
+              Standardvertragsklauseln der EU-Kommission gemäß Art. 46 Abs. 2
+              lit. c) DSGVO. Diese sind unter
+              <a href="https://www.netlify.com/legal/netlify-dpa.pdf">
+                https://www.netlify.com/legal/netlify-dpa.pdf
+              </a>{" "}
+              abrufbar, alternativ können Sie diese Dokumente auch bei uns unter
+              den unten angegebenen Kontaktmöglichkeiten erfragen.
+            </p>
             <h4>
-              7. Datenschutzbestimmungen zu Einsatz und Verwendung von Facebook
+              8. Datenschutzbestimmungen zu Einsatz und Verwendung von Facebook
             </h4>
             <p>
               Der für die Verarbeitung Verantwortliche hat auf dieser
@@ -790,7 +809,7 @@ const IndexPage = () => {
               um eine Datenübermittlung an Facebook zu unterdrücken.
             </p>
             <h4 id="chapter--ga">
-              8. Datenschutzbestimmungen zu Einsatz und Verwendung von Google
+              9. Datenschutzbestimmungen zu Einsatz und Verwendung von Google
               Analytics (mit Anonymisierungsfunktion)
             </h4>
             <button onClick={() => optOut()} className="button__optOut">
@@ -910,7 +929,7 @@ const IndexPage = () => {
               https://www.google.com/intl/de_de/analytics/ genauer erläutert.
             </p>
             <h4>
-              9. Datenschutzbestimmungen zu Einsatz und Verwendung von Twitter
+              10. Datenschutzbestimmungen zu Einsatz und Verwendung von Twitter
             </h4>
             <p>
               Der für die Verarbeitung Verantwortliche hat auf dieser
@@ -978,7 +997,7 @@ const IndexPage = () => {
               https://twitter.com/privacy?lang=de abrufbar.
             </p>
             <h4 id="chapter--youtube">
-              10. Datenschutzbestimmungen zu Einsatz und Verwendung von YouTube
+              11. Datenschutzbestimmungen zu Einsatz und Verwendung von YouTube
             </h4>
             <p>
               Der für die Verarbeitung Verantwortliche hat auf dieser
@@ -1035,7 +1054,7 @@ const IndexPage = () => {
               sind, geben Aufschluss über die Erhebung, Verarbeitung und Nutzung
               personenbezogener Daten durch YouTube und Google.
             </p>
-            <h4>11. Rechtsgrundlage der Verarbeitung</h4>
+            <h4>12. Rechtsgrundlage der Verarbeitung</h4>
             <p>
               Art. 6 I lit. a DS-GVO dient unserem Unternehmen als
               Rechtsgrundlage für Verarbeitungsvorgänge, bei denen wir eine
@@ -1075,7 +1094,7 @@ const IndexPage = () => {
               Kunde des Verantwortlichen ist (Erwägungsgrund 47 Satz 2 DS-GVO).
             </p>
             <h4>
-              12. Berechtigte Interessen an der Verarbeitung, die von dem
+              13. Berechtigte Interessen an der Verarbeitung, die von dem
               Verantwortlichen oder einem Dritten verfolgt werden
             </h4>
             <p>
@@ -1085,7 +1104,7 @@ const IndexPage = () => {
               Mitarbeiter und unserer Anteilseigner.
             </p>
             <h4>
-              13. Dauer, für die die personenbezogenen Daten gespeichert werden
+              14. Dauer, für die die personenbezogenen Daten gespeichert werden
             </h4>
             <p>
               Das Kriterium für die Dauer der Speicherung von personenbezogenen
@@ -1095,7 +1114,7 @@ const IndexPage = () => {
               Vertragsanbahnung erforderlich sind.
             </p>
             <h4>
-              14. Gesetzliche oder vertragliche Vorschriften zur Bereitstellung
+              15. Gesetzliche oder vertragliche Vorschriften zur Bereitstellung
               der personenbezogenen Daten; Erforderlichkeit für den
               Vertragsabschluss; Verpflichtung der betroffenen Person, die
               personenbezogenen Daten bereitzustellen; mögliche Folgen der
@@ -1123,7 +1142,7 @@ const IndexPage = () => {
               personenbezogenen Daten bereitzustellen, und welche Folgen die
               Nichtbereitstellung der personenbezogenen Daten hätte.
             </p>
-            <h4>15. Bestehen einer automatisierten Entscheidungsfindung</h4>
+            <h4>16. Bestehen einer automatisierten Entscheidungsfindung</h4>
             <p>
               Als verantwortungsbewusstes Unternehmen verzichten wir auf eine
               automatische Entscheidungsfindung oder ein Profiling.
