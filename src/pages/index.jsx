@@ -107,6 +107,7 @@ const IndexPage = () => {
           alignItems: "center",
           boxShadow: "0 2px 10px rgba(0,0,0,.15)",
         }}
+        contentClasses="cookieConsent__text"
         onAccept={() => enableTracking()}
         contentStyle={{ margin: "0.4rem" }}
         buttonStyle={{

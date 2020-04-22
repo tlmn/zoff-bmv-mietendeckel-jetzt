@@ -1,0 +1,8 @@
+.cookieConsent {
+  &__text {
+    flex: 1;
+    @include mq($until: tablet) {
+      flex: unset !important;
+    }
+  }
+}
