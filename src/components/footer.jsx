@@ -22,9 +22,15 @@ const Footer = () => (
           </a>
         </div>
         <div className="col-12 col-md-6 col-lg-3">
-          <h4>
-            <span>Berliner Mieterverein e.V.</span>
-          </h4>
+          <a
+            href="https://www.berliner-mieterverein.de"
+            target="_blank"
+            rel="noopener"
+          >
+            <h4>
+              <span>Berliner Mieterverein e.V.</span>
+            </h4>
+          </a>
           Spichernstraße 1<br />
           10777 Berlin
         </div>
