@@ -29,7 +29,7 @@ const Page = () => {
               <div className="calculator__title">Mietendeckelrechner</div>
               <iframe
                 ref={iframe}
-                src={`${ORIGIN}/md-jetzt`}
+                src={`${ORIGIN}/de/md-jetzt`}
                 frameBorder="0"
                 title="Mietendeckelrechner"
                 className="calculator__mdr"
