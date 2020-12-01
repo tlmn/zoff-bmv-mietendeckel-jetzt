@@ -79,7 +79,7 @@ const Page = () => (
                   <DownloadIcon width="100" />
                   <div className="material__wrapper">
                     <div className="material__link">
-                      Download Absenkungflyer (englisch):
+                      Download Flyer Mietabsenkung (englisch):
                       <br />
                       How to lower my rent?
                     </div>
@@ -98,7 +98,7 @@ const Page = () => (
                   <DownloadIcon width="100" />
                   <div className="material__wrapper">
                     <div className="material__link">
-                      Download Absenkungflyer (spanisch):
+                      Download Flyer Mietabsenkung (spanisch):
                       <br />
                       How to lower my rent?
                     </div>
