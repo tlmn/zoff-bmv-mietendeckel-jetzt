@@ -1,6 +1,6 @@
-import React from "react";
-import Image from "../components/image";
 import DownloadIcon from "../images/icons/downloadIcon";
+import Image from "../components/image";
+import React from "react";
 
 const Page = () => (
   <div className="container mx-auto d-block" id="materialien">
@@ -63,6 +63,44 @@ const Page = () => (
                       Download Faltplakat (türkisch):
                       <br />
                       Üst sınırı nasıl uygulayabilirim?
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-lg-4">
+          <div className="p-5">
+            <div className="overlay__container">
+              <Image name="absenkung-en.jpg" className="overlay__image" />
+              <a href="/material/MD_Absenkung-EN.pdf">
+                <div className="overlay__content">
+                  <DownloadIcon width="100" />
+                  <div className="material__wrapper">
+                    <div className="material__link">
+                      Download Absenkungflyer (englisch):
+                      <br />
+                      How to lower my rent?
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-lg-4">
+          <div className="p-5">
+            <div className="overlay__container">
+              <Image name="absenkung-es.jpg" className="overlay__image" />
+              <a href="/material/MD_Absenkung-ES.pdf">
+                <div className="overlay__content">
+                  <DownloadIcon width="100" />
+                  <div className="material__wrapper">
+                    <div className="material__link">
+                      Download Absenkungflyer (spanisch):
+                      <br />
+                      How to lower my rent?
                     </div>
                   </div>
                 </div>
