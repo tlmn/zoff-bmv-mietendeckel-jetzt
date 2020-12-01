@@ -100,7 +100,7 @@ const Page = () => (
                     <div className="material__link">
                       Download Flyer Mietabsenkung (spanisch):
                       <br />
-                      How to lower my rent?
+                      ¿Puedes ahorrarte algo?
                     </div>
                   </div>
                 </div>
