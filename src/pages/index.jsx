@@ -1,21 +1,21 @@
-import React, { useState } from "react";
-import ReactGA from "react-ga";
+import "../assets/stylesheets/application.scss";
 
-import Helmet from "../components/helmet";
+import React, { useState } from "react";
+
 import CookieConsent from "react-cookie-consent";
 import Footer from "../components/footer";
-import Navbar from "../components/navbar";
-import Hero from "../components/hero";
-import MietendeckelWirkt from "../sections/0-mietendeckel-wirkt";
-import WasIstMietendeckel from "../sections/1-was-ist-mietendeckel";
-import WieKannIchDeckeln from "../sections/2-wie-kann-ich-deckeln";
 import FragenZumMietendeckel from "../sections/3-fragen-zum-mietendeckel";
-import WarumMietendeckel from "../sections/4-warum-mietendeckel";
-import WasKommtNachDemMietendeckel from "../sections/5-mietendeckel-und-weiter";
-import Materialien from "../sections/6-materialien";
-
-import "../assets/stylesheets/application.scss";
+import Helmet from "../components/helmet";
+import Hero from "../components/hero";
 import { Link } from "gatsby";
+import Materialien from "../sections/6-materialien";
+import MietendeckelWirkt from "../sections/0-mietendeckel-wirkt";
+import Navbar from "../components/navbar";
+import ReactGA from "react-ga";
+import WarumMietendeckel from "../sections/4-warum-mietendeckel";
+import WasIstMietendeckel from "../sections/1-was-ist-mietendeckel";
+import WasKommtNachDemMietendeckel from "../sections/5-mietendeckel-und-weiter";
+import WieKannIchDeckeln from "../sections/2-wie-kann-ich-deckeln";
 
 const IndexPage = () => {
   const [FBPixelStatus, setFBPixelStatus] = useState(false);
@@ -53,6 +53,10 @@ const IndexPage = () => {
           {
             label: "Mietendeckel und weiter?",
             href: "#mietendeckel-und-weiter",
+          },
+          {
+            label: "Materialien",
+            href: "#materialien",
           },
         ]}
       />
